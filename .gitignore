@@ -1,0 +1,11 @@
+__pycache__/
+.vscode/
+cron_logs/
+.cache
+config.ini
+cred.py
+email_trial.py
+acoustic_master_list.csv
+acoustic_music_update.py
+acoustic_playlists.csv
+kcrw_update.py
