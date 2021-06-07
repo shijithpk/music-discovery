@@ -4,11 +4,8 @@ from datetime import datetime
 from datetime import timedelta
 from fuzzywuzzy import fuzz
 from spotipy.oauth2 import SpotifyOAuth
-import copy
-
 import cred
 #rename cred_SAMPLE.py in your directory to cred.py for this import to work
-
 import math
 import pandas as pd
 import spotipy
@@ -226,6 +223,8 @@ master_list_df.to_csv('master_list.csv', index=False, encoding='utf-8')
 # * in the code if a playlist hasnt been updated in 6 weeks, make note of it and send email about it
 # 	* then make call about whether playlist has to be removed or let it be for now (sometimes these playlists dont get updated over summer, xmas holidays, so those time periods ok as exceptions, otherwise not ok)
 
+
+
 master_list_df_new = pd.read_csv('master_list.csv')
 new_df = master_list_df_new[['playlist_id','source','playlist_name','date_added_to_playlist']]\
 .sort_values('date_added_to_playlist')\
@@ -246,8 +245,6 @@ new_df['days_since_last_update'] = (now - new_df['date_of_last_update']).dt.days
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from email.mime.base import MIMEBase
-from email import encoders
 import configparser
 
 config = configparser.ConfigParser()

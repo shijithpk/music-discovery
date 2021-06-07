@@ -1,0 +1,6 @@
+Unidecode==1.2.0
+pandas==0.25.3
+requests==2.22.0
+spotipy==2.18.0
+fuzzywuzzy==0.18.0
+python_dateutil==2.8.1
