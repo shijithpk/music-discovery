@@ -9,3 +9,4 @@ acoustic_master_list.csv
 acoustic_music_update.py
 acoustic_playlists.csv
 kcrw_update.py
+.gitignore
