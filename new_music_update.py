@@ -231,7 +231,7 @@ new_df = master_list_df_new[['playlist_id','source','playlist_name','date_added_
 .groupby(['playlist_id','source','playlist_name']).tail(1).reset_index(drop=True)
 
 #these are playlists i added earlier but removed later on. Dont want to include them in the email
-playlists_to_ignore = ['2fACkXaMF5AkjudREQHqME']
+playlists_to_ignore = ['2fACkXaMF5AkjudREQHqME','7L9bFJhsV08162AZEYr1BH']
 
 new_df = new_df[~new_df['playlist_id'].isin(playlists_to_ignore)]
 new_df['date_of_last_update'] = pd.to_datetime(new_df['date_added_to_playlist'], format='%Y-%m-%d')

@@ -7,6 +7,10 @@ Have written a blog post about why I coded this up [here](http://shijith.com).
 
 Go into some details of what you'll find in the repo, the script etc. Then go into the nitty-gritty
 
+### Who this is for
+* Amateur coders like myself who want to simplify how they find new music
+* people who are unhappy with the songs Spotify recommendations for whatever reason
+* 
 
 ### Getting started
 Clone the repo with  
