@@ -40,15 +40,42 @@ Made extensive use of the spotipy [library](https://spotipy.readthedocs.io) to a
 
 You'll need to [set up](https://www.section.io/engineering-education/spotify-python-part-1/) a developer account at Spotify, if you don't have one already. Put in your client id, client secret and redirect url into cred_RENAME.py. Rename the file to cred.py for it to work.
 
-This is optional, but if you want to be notified by email every week when your playlist is ready, you'll need to create a new gmail account to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has pretty detailed instructions. Then put in the email id where you want to receive the mail, the new email id you've created and its password into config_RENAME.ini. Rename it to config.ini for it to work.
+This is optional, but if you want to be notified by email every week when your playlist is ready, you'll need to create a new gmail account to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has pretty detailed instructions. Then put in the email id where you want to receive the mail, the new email id you've created and its password into config_email.ini.
 
-have a list of playlist ids with just playlist urls 
+HAVE A LIST OF PLAYLIST IDS WITH JUST PLAYLIST URLS 
 
-have separate new music update py for github
+HAVE SEPARATE NEW MUSIC UPDATE PY FOR GITHUB
 
-download the repo and see if it actually works for you, minimise the steps that peopl actually have to do 
-select playlists
+DOWNLOAD THE REPO AND SEE IF IT ACTUALLY WORKS FOR YOU, MINIMISE THE STEPS THAT PEOPL ACTUALLY HAVE TO DO 
+SELECT PLAYLISTS
 
+SHOULD I SORT BY POPULARITY FOR THE SONGS
+
+IT'S GOOD TO GIVE A MASTER LIST OF SONGS THAT HAVE BEEN RELEASED
+THEN AFTER THAT LET THEM BRANCH OFF ON THEIR OWN
+
+START WITH A MINIMAL NUMBER OF PLAYLISTS SELECTED
+
+DO A REGEX SO THAT YOU CAN EXTRACT ID FROM PLAYLIST URL
+MAKE THINGS AS EASY FOR POEPLE AS POSSIBLE
+
+MAKE A PLAYLIST WITH A DEFAULT NAME , include their spotify username, something like New Music Playlist for XXXXXusernameXXXX
+
+in My cron , do a command for updating the github repo as well
+
+also upload your original script so that people can see what else i've done
+    for example warning that a plylist has gone stale, hasnt been updated in a while, and so it might be time to remove it
+
+
+look in your spotify playlists for a playlist titled 'New Music for <your spotify user id>'. It's set to private, but you can make it public if you want.
+
+might be easier to create your own project than following someone else's code. GO for it, i won't mind.
+
+sp.current_user()
+{'display_name': 'Shijith Kunhitty', 'external_urls': {'spotify': 'https://open.spotify.com/user/shijith'}, 'followers': {'href': None, 'total': 3}, 'href': 'https://api.spotify.com/v1/users/shijith', 'id': 'shijith', 'images': [{'height': None, 'url': 'https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=10152024542046837&height=300&width=300&ext=1626154084&hash=AeQn7jeLjpCxMGGWpS4', 'width': None}], 'type': 'user', 'uri': 'spotify:user:shijith'}
+
+
+PUT IN SOME OF SPOTIFY's OWN CURATED PLAYLISTS INTO THE LIST, NO ACTUALLY DONT
 
 
 ### More about the script
@@ -77,6 +104,10 @@ Setting up your script in a way so that it can run on its own is made a bit
 GO INTO SOME DETAILS OF  THE SCRIPT ETC. THEN GO INTO THE NITTY-GRITTY
 
 THIS SCRIPT HOSTING BIT SHOULD BE AT THE END, AFTER EVERYTHING ELSE
+
+STOP USING THE WORD CONSTITUENT SO MUCH
+
+DONT GO INTO FULL DETAILS OF THE SCRIPT , JUST GO INTO THE PARTS WHERE PEOPLE MIGHT WANT TO DO SOME CUSTOMISATION
 
 ### Where to host the script
 I'm using Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), which offers two virtual machines for free forever. But you can use your cloud provider of choice--Google Cloud, Amazon Web Services etc.
