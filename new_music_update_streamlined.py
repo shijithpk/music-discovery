@@ -4,15 +4,14 @@ from datetime import datetime
 from datetime import timedelta
 from fuzzywuzzy import fuzz
 from spotipy.oauth2 import SpotifyOAuth
-import cred
-#rename cred_RENAME.py in your directory to cred.py for this import to work
+import cred_spotify
 import math
 import pandas as pd
 import spotipy
 import time
 
 scope = "playlist-read-private playlist-modify-private playlist-modify-public playlist-modify-public"
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=cred.client_id , client_secret= cred.client_secret ,redirect_uri=cred.redirect_url, scope=scope, open_browser=False))
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=cred_spotify.client_id , client_secret= cred_spotify.client_secret ,redirect_uri=cred_spotify.redirect_url, scope=scope, open_browser=False))
 
 #REMOVING all TRACKS FROM NEW MUSIC PLAYLIST
     #NEW MUSIC PLAYLIST ID '3XidTKBIpsGymPCjlN7kZH' https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH
