@@ -1,34 +1,26 @@
-# WRITE THIS MORE ANALYTICALLY, HINDU SMART
-
 ### About the repo
 
 This is an amateur python coder's attempt to make it easier to find new music on Spotify, without using its algorithms. 
 
-Essentially what I'm doing here is aggregating new music playlists from different publications and radio stations into a single playlist.
+Essentially what I'm doing here is aggregating new music playlists from different publications and radio stations into a single playlist on Spotify.
 
 Have written a blog post about why I coded this [here](http://shijith.com).
 
-
 ### Who this is for
 
-* Amateur coders like myself who want to simplify how they find new music
+* Amateur coders like myself who want to simplify their process of finding new music
 * Life hackers and others who want to automate aspects of their lives
 * People who are unhappy with Spotify's algorithmic playlists like 'Release Radar' and 'Discover Weekly'
 
-# GIVE LINKS TO FILES BELOW???
-
 ### What you'll find here
 
-* A python script new_music_update.py that does most of the work
-* A list of the playlists i'm aggregating in playlist_ids.csv
+* A python script [update_script.py](update_script.py) that does most of the work
+* A list of the spotify playlists i'm aggregating in playlist_ids_4github.csv
 * A file to place your spotify developer credentials in cred_SAMPLE.py
 * A file to place your email credentials if you want be notified every week when the consolidated playlist is created
 * A list that has all the songs you've ever added to the consolidated playlist in master_list_online.csv. So if a song has been added to the consolidated playlist in the past, it won't get added again.
 * A list that has all the songs added to all the constituent playlists every week in master_list.csv . Has its uses.
 
-IF YOU'RE GOING TO CREATE THE MASTERLISTS FRESH, DO YOU NEED TO UPLOAD IT TO THE REPO? ISNT JUST GIVING A FLIMPSE OF IT ENOUGH?
-
-SHOULD I HAVE AN AIRTABLE OF PLAYLISTS HERE? OR LISTS where a user can just tick what he wants and generate a playlist
 
 ### Getting started
 
@@ -44,12 +36,10 @@ This is optional, but if you want to be notified by email every week when your p
 
 HAVE A LIST OF PLAYLIST IDS WITH JUST PLAYLIST URLS 
 
-HAVE SEPARATE NEW MUSIC UPDATE PY FOR GITHUB
+SHOULD I HAVE AN AIRTABLE OF PLAYLISTS HERE? OR LISTS where a user can just tick what he wants and generate a playlist
 
 DOWNLOAD THE REPO AND SEE IF IT ACTUALLY WORKS FOR YOU, MINIMISE THE STEPS THAT PEOPL ACTUALLY HAVE TO DO 
 SELECT PLAYLISTS
-
-SHOULD I SORT BY POPULARITY FOR THE SONGS
 
 IT'S GOOD TO GIVE A MASTER LIST OF SONGS THAT HAVE BEEN RELEASED
 THEN AFTER THAT LET THEM BRANCH OFF ON THEIR OWN
@@ -66,14 +56,9 @@ in My cron , do a command for updating the github repo as well
 also upload your original script so that people can see what else i've done
     for example warning that a plylist has gone stale, hasnt been updated in a while, and so it might be time to remove it
 
-
 look in your spotify playlists for a playlist titled 'New Music for <your spotify user id>'. It's set to private, but you can make it public if you want.
 
 might be easier to create your own project than following someone else's code. GO for it, i won't mind.
-
-sp.current_user()
-{'display_name': 'Shijith Kunhitty', 'external_urls': {'spotify': 'https://open.spotify.com/user/shijith'}, 'followers': {'href': None, 'total': 3}, 'href': 'https://api.spotify.com/v1/users/shijith', 'id': 'shijith', 'images': [{'height': None, 'url': 'https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=10152024542046837&height=300&width=300&ext=1626154084&hash=AeQn7jeLjpCxMGGWpS4', 'width': None}], 'type': 'user', 'uri': 'spotify:user:shijith'}
-
 
 PUT IN SOME OF SPOTIFY's OWN CURATED PLAYLISTS INTO THE LIST, NO ACTUALLY DONT
 
@@ -108,6 +93,27 @@ THIS SCRIPT HOSTING BIT SHOULD BE AT THE END, AFTER EVERYTHING ELSE
 STOP USING THE WORD CONSTITUENT SO MUCH
 
 DONT GO INTO FULL DETAILS OF THE SCRIPT , JUST GO INTO THE PARTS WHERE PEOPLE MIGHT WANT TO DO SOME CUSTOMISATION
+
+Give instructions on how to update the playlist csv
+Actually no, lt them figure out some things for themselves
+just point them to a relevant link 
+https://www.geeksforgeeks.org/how-to-append-a-new-row-to-an-existing-csv-file/
+
+the playlist will get wiped clean every week, you can just like songs and it will be there in your liked songs list, you can decide what you want to do with them later, put them in separate playlists etc.
+You can also modify the script in a way so that the previous week's playlist doesnt get wiped clean, and this weeks playlist tracks just gets added on top.
+You'll have to modify the script accordingly. The code snippet
+is 
+sp.playlist_add_items('39s1hlg987JGqOeXkmuUUn', reversed(track_spotify_id_list), position=0)
+there's also a limit of 10000 songs to a playlist, so when it gets close to that limit, you'll need to start adding songs to a new playlist or delete songs from the existing one and continue adding to it.
+you can look at this script for an example for how id did it for one playlist
+you can look at the script for an examle for how when the 10,000 limit is close, i create a new playlist and start adding to that
+
+should i create a github page of awesome list of spotify new music playlists?
+
+also change the country code
+
+
+YOU SHOULDNT GO TOO DEEP INTO HANDHOLDING
 
 ### Where to host the script
 I'm using Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), which offers two virtual machines for free forever. But you can use your cloud provider of choice--Google Cloud, Amazon Web Services etc.

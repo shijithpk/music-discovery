@@ -3,16 +3,24 @@
 from datetime import datetime
 from datetime import timedelta
 from fuzzywuzzy import fuzz
+import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import cred_spotify
 import math
 import pandas as pd
-import spotipy
 import time
+import re
 
 scope = "playlist-read-private playlist-modify-private playlist-modify-public playlist-modify-public"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=cred_spotify.client_id , client_secret= cred_spotify.client_secret ,redirect_uri=cred_spotify.redirect_url, scope=scope, open_browser=False))
+
+#you'll need to change the line below and put in the code for your country
+    # here's one list of codes -- https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b
+    # something about it enabling track relinking. Essentially, if a version of a track isnt licensed 
+        #for your country, spotify gets you a version that is licensed. 
+        # More info at https://developer.spotify.com/documentation/general/guides/track-relinking-guide/
+spotify_market = 'IN'
 
 # getting current user's id
 current_user_object = sp.current_user()
@@ -52,13 +60,13 @@ else:
     playlist_id_to_update = new_playlist_object["id"]
 
 
-# wiping the slate clean, removing all tracks present in the consolidated playlist
+# wiping the slate clean, removing all tracks present in the consolidated playlist if any
 sp.playlist_replace_items(playlist_id_to_update, [])
 
 now = datetime.now()
 current_year = str(now.year)
 
-playlist_ids_df = pd.read_csv('playlist_ids.csv')
+playlist_ids_df = pd.read_csv('playlist_ids_full.csv')
 master_list_online_df = pd.read_csv('master_list_online.csv')
     #this master_list_online_df is the list we will check for duplicates against
 
@@ -69,19 +77,28 @@ column_names_online = ['track_id', 'track_name', 'artist_name', 'artist_id', 'da
        'liveness', 'valence', 'tempo', 'duration_ms', 'combined_string']
 add_online_df = pd.DataFrame(columns = column_names_online)
 
+#here we are looping over the playlists, taking them one by one
 for index,row in playlist_ids_df.iterrows():
-    playlist_id = row['playlist_id']
+    playlist_url = row['playlist_url']
+    regex_pattern = r'.+playlist\/(.+?(?=\?|$))'
+    playlist_id = re.match(regex_pattern, playlist_url).group(1)
+    #so this will get the playlist id from both
+        #urls like this https://open.spotify.com/playlist/5359l8Co8qztllR0Mxk4Zv?si=bb87bb1789b240e7
+            #and like this https://open.spotify.com/playlist/5359l8Co8qztllR0Mxk4Zv
+    # playlist_id = row['playlist_id']
     playlist_name = row['playlist_name']
     source = row['source']
 
     # here we are getting all the tracks of a constitutent playlist
-    results = sp.playlist_items(playlist_id, offset=0, market='IN')
+    results = sp.playlist_items(playlist_id, offset=0, market=spotify_market)
     items = results['items']
     while results['next']:
         time.sleep(6)
         results = sp.next(results)
         items.extend(results['items'])
 
+    #now we look at each song/track in a playlist
+        #whether it was released this year, whether it's been added to the playlist in the past etc.
     for item in items:
         if item['track']:
             track_name = item['track']['name']
@@ -101,7 +118,6 @@ for index,row in playlist_ids_df.iterrows():
             #this is to make sure we get only songs released this year or in the last two months
             # Lots of old songs just have a year in release date, need a check to see if date released string length is 10 characters
                 #10 characters being the length of a 'YYYY-MM-DD' string, including the hyphens between the numbers
-
             if len(date_released) == 10:
                 date_released_object = datetime.strptime(date_released, '%Y-%m-%d')
                 days_since_release = now - date_released_object
@@ -111,15 +127,14 @@ for index,row in playlist_ids_df.iterrows():
                 if (current_year in date_released) or (days_since_release < timedelta(weeks = 9)):
 
                     #below we check if it's not a duplicate of a track that we've added in the past
-                        #by looking at the track id in the master list , 
+                        #We do this by checking against existing track ids in the master list , 
                             # also by checking whether another playlist this week has the same track id
                             # also by doing fuzzy matches. If it's a score less than 100, we can add it
-                                # am ok with duplicates in the list, not ok with missing out on tracks
-
-                    if ((track_id not in master_list_online_df['track_id'].tolist()) and \
-                        (track_id not in add_online_df['track_id'].tolist()) and \
-                        (fuzz.partial_token_set_ratio(master_list_online_df['combined_string'], combined_string) < 100) and \
-                        (fuzz.partial_token_set_ratio(add_online_df['combined_string'], combined_string) < 100)):
+                                # Am ok with duplicates being added to the list, not ok with missing out on tracks
+                    if ((track_id not in add_online_df['track_id'].tolist()) and \
+                        (track_id not in master_list_online_df['track_id'].tolist()) and \
+                        (fuzz.partial_token_set_ratio(add_online_df['combined_string'], combined_string) < 100) and \
+                        (fuzz.partial_token_set_ratio(master_list_online_df['combined_string'], combined_string) < 100)):
                             #if there is no track with a different id that is a fuzzy match of the track we are looking at, we can add it
 
                             #get acoustic features for each track
@@ -163,19 +178,22 @@ for index,row in playlist_ids_df.iterrows():
 
 #sorting add_online_df by acousticness
     #i like acoustic music, this sorting allows songs that are more acoustic to appear at the top of the playlist
-    #you can sort by any other property you want like energy, danceability etc.
+            #So i get to listen to more acoustic music first
+    #You can sort by any other property you want like energy, danceability etc.
 add_online_df.sort_values(by='acousticness', ascending=False, inplace=True)
 
 #add tracks from add_online_df to consolidated new music playlist
+# we can only add 100 at a time    
 ids_to_add = add_online_df['track_id'].tolist()
 len_list = len(ids_to_add)
 no_of_100s = math.ceil(len_list/100)
 for i in range(0, no_of_100s):
     list_100 = ids_to_add[:100]
     sp.playlist_add_items(playlist_id_to_update, list_100)
-    time.sleep(10)
     del ids_to_add[:100]
+    time.sleep(10)
 
+#here we are adding all the songs from this week to the master_list csv    
 master_list_online_df = pd.concat([master_list_online_df, add_online_df], ignore_index=True, sort=False)
 master_list_online_df.to_csv('master_list_online.csv', index=False, encoding='utf-8')
 
@@ -183,10 +201,10 @@ master_list_online_df.to_csv('master_list_online.csv', index=False, encoding='ut
     # This is for anyone who's scheduled the script to run every week at a specific time using cron
     # this email lets you know when the update's done
         # If you run the script manually on demand, this email portion wont be useful to you
-    # you can also do things like phone notifications instead using pushbullet https://pypi.org/project/pushbullet.py/
+    # you can also do things like phone notifications using pushbullet https://pypi.org/project/pushbullet.py/
     # email code lifted from https://realpython.com/python-send-email/#sending-fancy-emails , 
             #https://stackoverflow.com/questions/882712/sending-html-email-using-python and various other stackoverflow posts
-    # IF YOU DONT WANT ANY EMAIL NOTIFICATIONS, YOU CAN JUST COMMENT OUT EVERYTHING BELOW THIS LINE
+    # IF YOU DONT WANT ANY EMAIL NOTIFICATIONS, YOU CAN JUST COMMENT OUT OR DELETE EVERYTHING BELOW THIS LINE
 
 import smtplib
 from email.mime.text import MIMEText
