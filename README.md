@@ -19,7 +19,7 @@ Have written a blog post about why I coded this [here](http://shijith.com/blog/a
 * [cred_spotify.py](cred_spotify.py) where you'll place your Spotify developer credentials 
 * [config_email.ini](config_email.ini) where you'll place your email credentials if you want be notified every week when the consolidated playlist is created
 * [master_list_online.csv](master_list_online.csv), which is a list of songs released recently. When you aggregate songs, you'll be checking them against this list to see if they've been featured in playlists earlier. It's been populated with tracks from the playlists I've been aggregating.
-* [further_ideas_1.py](further_ideas_1.py) and [further_ideas_2.py](further_ideas_2.py) for ideas on how to customize update_script.py  
+* [further_ideas_1.py](further_ideas_1.py) and [further_ideas_2.py](further_ideas_2.py) for inspiration on how to customize update_script.py  
 
 ### How to set it all up
 
