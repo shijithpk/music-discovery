@@ -178,11 +178,11 @@ for index,row in playlist_ids_df.iterrows():
 
 #sorting add_online_df by acousticness
     #i like acoustic music, this sorting allows songs that are more acoustic to appear at the top of the playlist
-            #So i get to listen to more acoustic music first
-    #You can sort by any other property you want like energy, danceability etc.
+            #So i get to listen to the more acoustic music first
+    #You can sort by any other property you want like instrumentalness, danceability etc.
 add_online_df.sort_values(by='acousticness', ascending=False, inplace=True)
 
-#add tracks from add_online_df to consolidated new music playlist
+#add tracks from add_online_df to the consolidated new music playlist
 # we can only add 100 at a time    
 ids_to_add = add_online_df['track_id'].tolist()
 len_list = len(ids_to_add)
