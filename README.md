@@ -57,12 +57,14 @@ You can either run the script locally or on a virtual machine. (Schedule it to r
 
 ## Further customization
 
-(This section won't have much handholding. You'll have to get your hands dirty and figure things out on your own!)
+(This section won't have much handholding. You'll have to get your hands dirty and figure things out on your own here!)
 
-Right now the updates are done in such a way that tracks added last week are removed and fresh tracks are put in its place. But you can also modify the script to ensure the previous week's playlist isn't wiped clean, and new tracks this week just get added to the top of the playlist. [further_ideas_1.py](further_ideas_1.py) will give you an idea of how to implement that.  
+Right now the updates are done in such a way that tracks added last week are removed and fresh tracks come in its place. But you can also modify the script to ensure the previous week's playlist isn't wiped clean, and new tracks this week just get added to the top of the playlist. [further_ideas_1.py](further_ideas_1.py) will give you an idea of how to implement this.  
 
-Now the thing is there's a limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000.Another thing you could do is create a new playlist and start adding songs to that. [further_ideas_2.py](further_ideas_2.py) will show you how to automate that. 
+Now the thing is there's a limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000.  
 
-Some of the playlists you're aggregating, some of them might stop getting updates after some time. You can use email to get notified when that happens.[further_ideas_2.py](further_ideas_2.py) has an implementation of this, it shows me the last updated date for each playlist (see a screenshot below of the mail I get).
+Another thing you could do is create a new playlist and start adding songs to that. [further_ideas_2.py](further_ideas_2.py) will show you how to automate that. 
+
+Some of the playlists you're aggregating, they might stop getting updates after a while. You can use email to keep track of this. [further_ideas_2.py](further_ideas_2.py) has an implementation of this, it tells me when each playlist was updated last (see a screenshot below of the mail I get).
 
 ![Screenshot of email](https://i.imgur.com/mDGhrMf.png)
