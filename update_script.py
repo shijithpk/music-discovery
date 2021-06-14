@@ -77,6 +77,9 @@ column_names_online = ['track_id', 'track_name', 'artist_name', 'artist_id', 'da
        'liveness', 'valence', 'tempo', 'duration_ms', 'combined_string']
 add_online_df = pd.DataFrame(columns = column_names_online)
 
+ADD THE PLAYLIST FILTER BIT , INCLUDE = YES
+also allow for yes in upper case
+
 #here we are looping over the playlists, taking them one by one
 for index,row in playlist_ids_df.iterrows():
     playlist_url = row['playlist_url']
