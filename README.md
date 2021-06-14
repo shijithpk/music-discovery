@@ -31,7 +31,7 @@ Have written a blog post about why I coded this [here](http://shijith.com/blog/a
 
 4. **Create a new mail id** — This is optional, but if you want to be notified by email every week when your playlist is ready, you'll need to create a new mail id to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has detailed instructions on how to use gmail programatically to send emails. Then put in the email id where you want to receive the mail, the new email id you've created and its password into [config_email.ini](config_email.ini).
 
-5. **Choose playlists to aggregate** — [playlist_ids_full.csv](playlist_ids_full.csv) has a list of Spotify playlists you can aggregate. Info on each playlist is available like its source and genre. If you think you want to include a playlist, just put 'yes' against it in the INCLUDE column. And if you don't want to include it, just leave the cell under INCLUDE blank. You can also add other Spotify playlists to the list. This [page](https://www.geeksforgeeks.org/how-to-append-a-new-row-to-an-existing-csv-file/) will show you how to add new rows to a csv, use the 2nd method where a dictionary is appended as a new row.
+5. **Choose playlists to aggregate** — [playlist_ids_full.csv](playlist_ids_full.csv) has a list of Spotify playlists you can aggregate. Info on each playlist is available like its source and genre. If you think you want to include a playlist, just put 'yes' against it in the INCLUDE column. And if you don't want to include it, just leave the cell under INCLUDE blank.
 
 6. **Change the country code** — You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (You can find the code from this [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b).) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that is licensed. So you'll have fewer missing tracks.        
 
@@ -44,18 +44,26 @@ It doesn't have to be a chore, just have the playlist running while you're worki
 
 You can either run the script locally or on a virtual machine (VM). (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services.
 
-**Before uploading to a VM** — If you do decide to run it from a remote machine, just make sure to run the script locally once and then move the whole directory remote. It creates these 'access tokens' and 'refresh tokens' in a hidden .cache file that are important for accessing the Spotify API. You'll need to copy and paste an authorization code the first time, after which everything can be automated without any need for human intervention.
+**Before uploading to a VM** — If you do decide to run it from a remote machine, just make sure to run the script locally once and then move the whole directory remote. It creates these 'access tokens' and 'refresh tokens' in a hidden .cache file that are important for accessing the Spotify API. You'll need to copy and paste an authorization code the first time you use your credentials, but after that everything can be automated without any need for human intervention.
 
 ### Further customization
 
 (This section won't have much handholding. You'll have to get your hands dirty and figure things out on your own here!)
 
+**Adding new playlists**  
+You can also add other Spotify playlists to [playlist_ids_full.csv](playlist_ids_full.csv). First get the playlist_url from Share > 'Copy Link To Playlist' on the playlist's page. This [guide](https://www.geeksforgeeks.org/how-to-append-a-new-row-to-an-existing-csv-file/) will show you how to add new rows to a csv, use the 2nd method where a dictionary is appended as a new row. 
+
+When adding a new row, the only values that are required are playlist_url and a 'yes' value in the INCLUDE column. The other values are optional, but it's nice to have that info around so that you know what each playlist is about.
+
+**Retain previous weeks' tracks**  
 Right now the updates are done in such a way that tracks added last week are removed, and fresh tracks come in its place. But you can also modify the script to ensure the previous week's playlist isn't wiped clean, and new tracks from this week just get added to the top of the playlist. [further_ideas_1.py](further_ideas_1.py) will show you how to implement this.  
 
-Now the thing is there's a limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000.  
+**Dealing with the 10,000 song-limit**  
+If you decide to retain songs from previous weeks, one issue that you will bump up against is the limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000.  
 
 Instead of deleting older tracks, another thing you could do is create a new playlist and add songs to that. [further_ideas_2.py](further_ideas_2.py) will show you how to automate this process. 
 
+**Find which playlists are inactive**  
 Some of the playlists you're aggregating, they might stop getting updates after a while, but you can use email to track how active different playlists are. [further_ideas_2.py](further_ideas_2.py) implements this by mailing me with info on when each playlist was last updated (screenshot below).
 
 ![Screenshot of email](https://i.imgur.com/mDGhrMf.png)
