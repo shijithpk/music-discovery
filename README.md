@@ -18,7 +18,7 @@ Have written a blog post about why I coded this [here](http://shijith.com/blog/a
 * [playlist_ids_full.csv](playlist_ids_full.csv) which has a list of Spotify playlists you can aggregate 
 * [cred_spotify.py](cred_spotify.py) where you'll place your Spotify developer credentials 
 * [config_email.ini](config_email.ini) where you'll place your email credentials if you want be notified every week when the consolidated playlist is created
-* [master_list_online.csv](master_list_online.csv), which is a list of songs released recently. When you aggregate songs, you'll be checking them against this list to see if they've been featured in playlists earlier. It's been populated with tracks from the playlists I've been aggregating.
+* [master_list_online.csv](master_list_online.csv), which is a list of songs released recently. When the script comes across a song, it will check the song against this list to see if it's been on playlists earlier. The csv's been populated with tracks from playlists I'm aggregating.
 * [further_ideas_1.py](further_ideas_1.py) and [further_ideas_2.py](further_ideas_2.py) for inspiration on how to customize update_script.py  
 
 ### How to set it all up
@@ -29,7 +29,7 @@ Have written a blog post about why I coded this [here](http://shijith.com/blog/a
 
 3. **Create Spotify credentials** — You'll need to [set up](https://www.section.io/engineering-education/spotify-python-part-1/) a developer account at Spotify, if you don't have one already. Then put your client id, client secret and redirect url into [cred_spotify.py](cred_spotify.py).
 
-4. **Create a new mail id** — This is optional, but if you want to be notified by email every week when your playlist is ready, you'll need to create a new mail id to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has detailed instructions on how to use gmail programatically to send emails. Then put in the email id where you want to receive the mail, the new email id you've created and its password into [config_email.ini](config_email.ini). (And if you decide against email notifications, go into [update_script.py](update_script.py) and delete the code dealing with email near the end.)
+4. **Create a new mail id** — This is optional, but if you want to be notified by email every week when your playlist is ready, you'll need to create a new mail id to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has detailed instructions on how to use gmail programatically to send emails. Then put in the email id where you want to receive the mail, the new email id you've created and its password into [config_email.ini](config_email.ini). (And if you decide against email notifications, go into [update_script.py](update_script.py) and delete the code dealing with email.)
 
 5. **Choose playlists to aggregate** — [playlist_ids_full.csv](playlist_ids_full.csv) has a list of Spotify playlists you can aggregate. Info on each playlist is available like its source and genre. If you think you want to include a playlist, just put 'yes' against it in the INCLUDE column. And if you don't want to include it, just leave the cell under INCLUDE blank.
 
