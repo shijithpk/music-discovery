@@ -50,7 +50,7 @@ You can either run the script locally or on a virtual machine (VM). (Schedule it
 
 (This section won't have much handholding. You'll have to get your hands dirty and figure things out on your own here!)
 
-**Adding new playlists**  
+**Add new playlists**  
 You can also add other Spotify playlists to [playlist_ids_full.csv](playlist_ids_full.csv). First get the playlist_url from Share > 'Copy Link To Playlist' on the playlist's page. This [guide](https://www.geeksforgeeks.org/how-to-append-a-new-row-to-an-existing-csv-file/) will show you how to add new rows to a csv, use the 2nd method where a dictionary is appended as a new row. 
 
 When adding a new row, the only values that are required are playlist_url and a 'yes' value in the INCLUDE column. The other values are optional, but it's nice to have that info around so that you know what each playlist is about.
@@ -58,7 +58,7 @@ When adding a new row, the only values that are required are playlist_url and a 
 **Retain previous weeks' tracks**  
 Right now the updates are done in such a way that tracks added last week are removed, and fresh tracks come in its place. But you can also modify the script to ensure the previous week's playlist isn't wiped clean, and new tracks from this week just get added to the top of the playlist. [further_ideas_1.py](further_ideas_1.py) will show you how to implement this.  
 
-**Dealing with the 10,000 song-limit**  
+**Deal with the 10,000 song-limit**  
 If you decide to retain songs from previous weeks, one issue that you will bump up against is the limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000.  
 
 Instead of deleting older tracks, another thing you could do is create a new playlist and add songs to that. [further_ideas_2.py](further_ideas_2.py) will show you how to automate this process. 
