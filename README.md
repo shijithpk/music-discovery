@@ -18,15 +18,14 @@ Have written a blog post about why I coded this [here](http://shijith.com/blog/a
 * A list of the spotify playlists i'm aggregating in [playlist_ids_full.csv](playlist_ids_full.csv)
 * A file to place your spotify developer credentials in [cred_spotify.py](cred_spotify.py)
 * A file to place your email credentials in [config_email.ini](config_email.ini) if you want be notified every week when the consolidated playlist is created
-* A list of songs released recently in [master_list_online.csv](master_list_online.csv). When you aggregate songs, you'll be checking them against this list to see if they've been featured in lists earlier. To start with, it's populated with tracks from the playlists I'm aggregating.
+* A list of songs released recently in [master_list_online.csv](master_list_online.csv). When you aggregate songs, you'll be checking them against this list to see if they've been featured in lists earlier. It's been populated with tracks from the playlists I've been aggregating.
+* Scripts [further_ideas_1.py](further_ideas_1.py) and [further_ideas_2.py](further_ideas_2.py) to give you ideas on how to customize update_script.py
 
 ### How to set it all up
 
-1. Clone the repo with  
-`git clone https://github.com/shijithpk/music-discovery.git`
+1. Clone the repo with `git clone https://github.com/shijithpk/music-discovery.git`
 
-2. Made extensive use of the spotipy [library](https://spotipy.readthedocs.io) to access the Spotify API. CD into the directory and install the modules you'll need with  
-`pip install -r requirements.txt` 
+2. CD into the directory and install the modules you'll need with `pip install -r requirements.txt`. Have made extensive use of the spotipy [library](https://spotipy.readthedocs.io) to access the Spotify API.
 
 3. **Create spotify credentials** -- You'll need to [set up](https://www.section.io/engineering-education/spotify-python-part-1/) a developer account at Spotify, if you don't have one already. Then put your client id, client secret and redirect url into [cred_spotify.py](cred_spotify.py).
 
@@ -45,38 +44,25 @@ Actually no, lt them figure out some things for themselves
 just point them to a relevant link 
 https://www.geeksforgeeks.org/how-to-append-a-new-row-to-an-existing-csv-file/
 
-
-6. **Change the country code** -- You'll need to change one line in the script and put in the two-letter ISO code for your country. (Here's one [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b) of codes.) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isnt licensed for your country, Spotify will find a version of the track that's licensed. So you'll have fewer missing tracks.
-        `spotify_market = 'IN'`
-
+6. **Change the country code** -- You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (Here's one [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b) of codes.) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that is licensed. So you'll have fewer missing tracks.        
 
 ## How to use it
-Once everything's set up, just run the script `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your spotify, a playlist titled 'New Music for <your spotify user id>'. The playlist is set to private, but you can make it public if you want.
+Once everything's set up, just run the script `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for <your Spotify user id>'. The playlist is set to private, but you can make it public if you want.
 
 Note that the playlist gets wiped clean and new tracks get added every time you run the script (That is, if one of the playlists you're aggregating has been updated in the meantime.) But you can 'like' songs to add them to your liked songs list. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with the tracks. For example, putting them in genre-wise playlists.
 
-You can either run the script locally or on a virtual machine. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provide of choice like Google Cloud or  Amazon Web Services.
+You can either run the script locally or on a virtual machine. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or  Amazon Web Services.
 
-**Before uploading to a VM** -- If you do decide to run it from a remote machine, just make sure to run the script locally once and then move the directory remote. It helps in creating these 'access tokens' and 'refresh tokens' that are important for accessing the spotify api. You'll need to copy and paste an authorization code the first time, after which everything can be automated.
+**Before uploading to a VM** -- If you do decide to run it from a remote machine, just make sure to run the script locally once and then move the directory remote. It helps in creating these 'access tokens' and 'refresh tokens' that are important for accessing the Spotify API. You'll need to copy and paste an authorization code the first time, after which everything can be automated without any need for human intervention.
 
 ## Further customization
 
-You can also modify the script in a way so that the previous week's playlist doesnt get wiped clean, and this weeks playlist tracks just gets added on top.
-You'll have to modify the script accordingly. The code snippet
-is 
-sp.playlist_add_items('39s1hlg987JGqOeXkmuUUn', reversed(track_spotify_id_list), position=0)
-there's also a limit of 10000 songs to a playlist, so when it gets close to that limit, you'll need to start adding songs to a new playlist or delete songs from the existing one and continue adding to it.
-you can look at this script for an example for how id did it for one playlist
-you can look at the script for an examle for how when the 10,000 limit is close, i create a new playlist and start adding to that
+(This section won't have much handholding. You'll have to get your hands dirty and figure things out on your own!)
 
-also upload your original script so that people can see what else i've done
-    for example it has a warning that a plylist has gone stale, hasnt been updated in a while, and so it might be time to remove it
+Right now the updates are done in such a way that tracks added last week are removed and fresh tracks are put in its place. But you can also modify the script to ensure the previous week's playlist isn't wiped clean, and new tracks this week just get added to the top of the playlist. [further_ideas_1.py](further_ideas_1.py) will give you an idea of how to implement that.  
 
-DONT GO INTO FULL DETAILS OF THE SCRIPT , JUST GO INTO THE PARTS WHERE PEOPLE MIGHT WANT TO DO SOME CUSTOMISATION
+Now the thing is there's a limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000.Another thing you could do is create a new playlist and start adding songs to that. [further_ideas_2.py](further_ideas_2.py) will show you how to automate that. 
 
-DOWNLOAD THE REPO AND SEE IF IT ACTUALLY WORKS FOR YOU, MINIMISE THE STEPS THAT PEOPL ACTUALLY HAVE TO DO 
+Some of the playlists you're aggregating, some of them might stop getting updates after some time. You can use email to get notified when that happens.[further_ideas_2.py](further_ideas_2.py) has an implementation of this, it shows me the last updated date for each playlist (see a screenshot below of the mail I get).
 
-IT'S GOOD TO GIVE A MASTER LIST OF SONGS THAT HAVE BEEN RELEASED
-THEN AFTER THAT LET THEM BRANCH OFF ON THEIR OWN
-
-in My cron , do a command for updating the github repo as well
+![Screenshot of email](https://i.imgur.com/mDGhrMf.png)
