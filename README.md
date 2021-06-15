@@ -44,7 +44,7 @@ It doesn't have to be a chore, just have the playlist running while you're worki
 
 You can either run the script locally or on a virtual machine (VM). (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
 
-**Before uploading to a VM** — If you do decide to run it from a remote machine, just make sure to run the script locally once and then move the whole directory remote. A local run creates these 'access tokens' and 'refresh tokens' in a hidden .cache file that are important for accessing the Spotify API. You'll have to copy and paste an authorization code manually the first time you use your credentials, but after that everything can be automated.
++ **Before uploading to a VM** — If you do decide to run it from a remote machine, just make sure to run the script locally once and then move the whole directory remote. A local run creates these 'access tokens' and 'refresh tokens' in a hidden .cache file that are important for accessing the Spotify API. You'll have to copy and paste an authorization code manually the first time you use your credentials, but after that everything can be automated.
 
 ### Further customization
 
