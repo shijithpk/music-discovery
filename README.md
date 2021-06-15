@@ -38,9 +38,9 @@ Have written a blog post about why I coded this [here](http://shijith.com/blog/a
 ### How to use it
 Once everything's set up, just run the script `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
 
-Note that the playlist gets wiped clean and new tracks get added every time you run the script (as long as one of the playlists you're aggregating has been updated in the meantime.) I've never gotten more than 160 songs in an update and that may sound like a lot, but it's easy to get through those songs in a week.
+Note that the playlist gets wiped clean and new tracks get added every time you run the script (as long as one of the playlists you're aggregating has been updated in the meantime). I've not gotten more than 160 songs in an update and that may sound like a lot, but it's easy to get through those songs in a week.
 
-It doesn't have to be a chore, just have the playlist running while you're working/browsing/doomscrolling and 'like' songs to add them to your liked songs list. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with the songs you've liked. (For example, you can put them in genre-wise playlists if you want.)
+You don't have to make it a chore, just have the playlist running while you're working/browsing/doomscrolling and 'like' songs to add them to your liked songs list. (Also, skip liberally.) There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with the songs you've liked. (For example, you can put them in genre-wise playlists if you want.)
 
 You can either run the script locally or on a virtual machine (VM). (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
 
@@ -56,7 +56,7 @@ You can either run the script locally or on a virtual machine (VM). (Schedule it
 
 * **Deal with the 10,000 song-limit** — If you decide to retain songs from previous weeks, one issue that you will bump up against is the limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000. Instead of deleting older tracks, another thing you could do is create a new playlist and add songs to that. [further_ideas_2.py](further_ideas_2.py) will show you how to automate the process. 
 
-* **Find out which playlists are inactive** — Some of the playlists you're aggregating, they might stop getting updates after a while, but you can use email to monitor how active different playlists are. [further_ideas_2.py](further_ideas_2.py) implements this by mailing me with info about each playlist's last update (screenshot below).
+* **Find out which playlists are inactive** — Some of the playlists you're aggregating, they might stop getting updates after a while, but you can use email to monitor how active different playlists are. [further_ideas_2.py](further_ideas_2.py) implements this by mailing me with info about when each playlist was last updated (screenshot below).
 
 ![Screenshot of email](https://i.imgur.com/ttPLsUP.png)
 
