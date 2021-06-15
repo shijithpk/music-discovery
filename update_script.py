@@ -77,9 +77,6 @@ column_names_online = ['track_id', 'track_name', 'artist_name', 'artist_id', 'da
        'liveness', 'valence', 'tempo', 'duration_ms', 'combined_string']
 add_online_df = pd.DataFrame(columns = column_names_online)
 
-ADD THE PLAYLIST FILTER BIT , INCLUDE = YES
-also allow for yes in upper case
-
 #here we are looping over the playlists, taking them one by one
 for index,row in playlist_ids_df.iterrows():
     playlist_url = row['playlist_url']
@@ -89,95 +86,98 @@ for index,row in playlist_ids_df.iterrows():
         #urls like this https://open.spotify.com/playlist/5359l8Co8qztllR0Mxk4Zv?si=bb87bb1789b240e7
             #and like this https://open.spotify.com/playlist/5359l8Co8qztllR0Mxk4Zv
     # playlist_id = row['playlist_id']
+    include_boolean = row['INCLUDE']
     playlist_name = row['playlist_name']
     source = row['source']
 
-    # here we are getting all the tracks of a constitutent playlist
-    results = sp.playlist_items(playlist_id, offset=0, market=spotify_market)
-    items = results['items']
-    while results['next']:
-        time.sleep(6)
-        results = sp.next(results)
-        items.extend(results['items'])
+    if ((include_boolean == 'yes') or (include_boolean == 'Yes') or (include_boolean == 'YES')):
 
-    #now we look at each song/track in a playlist
-        #whether it was released this year, whether it's been added to the playlist in the past etc.
-    for item in items:
-        if item['track']:
-            track_name = item['track']['name']
-            track_id = item['track']['id']
-            artist_name_list = [artist['name'] for artist in item['track']['artists']]
-            artist_name = ', '.join(artist_name_list)
-            combined_string = track_name + ' ' + artist_name
-            artist_id_list = [artist['id'] for artist in item['track']['artists']]
-            artist_id = ', '.join(artist_id_list)
-            album_name = item['track']['album']['name']
-            album_id = item['track']['album']['id']
-            date_released = item['track']['album']['release_date']
-            date_added_to_playlist = item['added_at'][0:10]
-            date_added_to_master_list = datetime.today().strftime('%Y-%m-%d')
-            
-            # here we are looking at the release date of a song 
-            #this is to make sure we get only songs released this year or in the last two months
-            # Lots of old songs just have a year in release date, need a check to see if date released string length is 10 characters
-                #10 characters being the length of a 'YYYY-MM-DD' string, including the hyphens between the numbers
-            if len(date_released) == 10:
-                date_released_object = datetime.strptime(date_released, '%Y-%m-%d')
-                days_since_release = now - date_released_object
+        # here we are getting all the tracks of a constitutent playlist
+        results = sp.playlist_items(playlist_id, offset=0, market=spotify_market)
+        items = results['items']
+        while results['next']:
+            time.sleep(6)
+            results = sp.next(results)
+            items.extend(results['items'])
 
-                #if released this year or in last two months
-                    #last two months check allows for songs released in Nov/Dec to appear in playlist in Jan/Feb
-                if (current_year in date_released) or (days_since_release < timedelta(weeks = 9)):
+        #now we look at each song/track in a playlist
+            #whether it was released this year, whether it's been added to the playlist in the past etc.
+        for item in items:
+            if item['track']:
+                track_name = item['track']['name']
+                track_id = item['track']['id']
+                artist_name_list = [artist['name'] for artist in item['track']['artists']]
+                artist_name = ', '.join(artist_name_list)
+                combined_string = track_name + ' ' + artist_name
+                artist_id_list = [artist['id'] for artist in item['track']['artists']]
+                artist_id = ', '.join(artist_id_list)
+                album_name = item['track']['album']['name']
+                album_id = item['track']['album']['id']
+                date_released = item['track']['album']['release_date']
+                date_added_to_playlist = item['added_at'][0:10]
+                date_added_to_master_list = datetime.today().strftime('%Y-%m-%d')
+                
+                # here we are looking at the release date of a song 
+                #this is to make sure we get only songs released this year or in the last two months
+                # Lots of old songs just have a year in release date, need a check to see if date released string length is 10 characters
+                    #10 characters being the length of a 'YYYY-MM-DD' string, including the hyphens between the numbers
+                if len(date_released) == 10:
+                    date_released_object = datetime.strptime(date_released, '%Y-%m-%d')
+                    days_since_release = now - date_released_object
 
-                    #below we check if it's not a duplicate of a track that we've added in the past
-                        #We do this by checking against existing track ids in the master list , 
-                            # also by checking whether another playlist this week has the same track id
-                            # also by doing fuzzy matches. If it's a score less than 100, we can add it
-                                # Am ok with duplicates being added to the list, not ok with missing out on tracks
-                    if ((track_id not in add_online_df['track_id'].tolist()) and \
-                        (track_id not in master_list_online_df['track_id'].tolist()) and \
-                        (fuzz.partial_token_set_ratio(add_online_df['combined_string'], combined_string) < 100) and \
-                        (fuzz.partial_token_set_ratio(master_list_online_df['combined_string'], combined_string) < 100)):
-                            #if there is no track with a different id that is a fuzzy match of the track we are looking at, we can add it
+                    #if released this year or in last two months
+                        #last two months check allows for songs released in Nov/Dec to appear in playlist in Jan/Feb
+                    if (current_year in date_released) or (days_since_release < timedelta(weeks = 9)):
 
-                            #get acoustic features for each track
-                            audio_features = sp.audio_features([track_id])
-                            time.sleep(6)
+                        #below we check if it's not a duplicate of a track that we've added in the past
+                            #We do this by checking against existing track ids in the master list , 
+                                # also by checking whether another playlist this week has the same track id
+                                # also by doing fuzzy matches. If it's a score less than 100, we can add it
+                                    # Am ok with duplicates being added to the list, not ok with missing out on tracks
+                        if ((track_id not in add_online_df['track_id'].tolist()) and \
+                            (track_id not in master_list_online_df['track_id'].tolist()) and \
+                            (fuzz.partial_token_set_ratio(add_online_df['combined_string'], combined_string) < 100) and \
+                            (fuzz.partial_token_set_ratio(master_list_online_df['combined_string'], combined_string) < 100)):
+                                #if there is no track with a different id that is a fuzzy match of the track we are looking at, we can add it
 
-                            danceability = audio_features[0]['danceability']
-                            energy = audio_features[0]['energy']
-                            key = audio_features[0]['key']
-                            loudness = audio_features[0]['loudness']
-                            speechiness = audio_features[0]['speechiness']
-                            acousticness = audio_features[0]['acousticness']
-                            instrumentalness = audio_features[0]['instrumentalness']
-                            liveness = audio_features[0]['liveness']
-                            valence = audio_features[0]['valence']
-                            tempo = audio_features[0]['tempo']
-                            duration_ms = audio_features[0]['duration_ms']
+                                #get acoustic features for each track
+                                audio_features = sp.audio_features([track_id])
+                                time.sleep(6)
 
-                            online_row_dict = {
-                                'track_id':track_id,
-                                'track_name':track_name,
-                                'artist_name':artist_name,
-                                'artist_id':artist_id,
-                                'date_released':date_released,
-                                'date_added_to_online_list': datetime.today().strftime('%Y-%m-%d'),
-                                'danceability':danceability,
-                                'energy':energy,
-                                'key':key,
-                                'loudness':loudness,
-                                'speechiness':speechiness,
-                                'acousticness':acousticness,
-                                'instrumentalness':instrumentalness,
-                                'liveness':liveness,
-                                'valence':valence,
-                                'tempo':tempo,
-                                'duration_ms':duration_ms,
-                                'combined_string': combined_string
-                            }
+                                danceability = audio_features[0]['danceability']
+                                energy = audio_features[0]['energy']
+                                key = audio_features[0]['key']
+                                loudness = audio_features[0]['loudness']
+                                speechiness = audio_features[0]['speechiness']
+                                acousticness = audio_features[0]['acousticness']
+                                instrumentalness = audio_features[0]['instrumentalness']
+                                liveness = audio_features[0]['liveness']
+                                valence = audio_features[0]['valence']
+                                tempo = audio_features[0]['tempo']
+                                duration_ms = audio_features[0]['duration_ms']
 
-                            add_online_df = add_online_df.append(online_row_dict, ignore_index = True)
+                                online_row_dict = {
+                                    'track_id':track_id,
+                                    'track_name':track_name,
+                                    'artist_name':artist_name,
+                                    'artist_id':artist_id,
+                                    'date_released':date_released,
+                                    'date_added_to_online_list': datetime.today().strftime('%Y-%m-%d'),
+                                    'danceability':danceability,
+                                    'energy':energy,
+                                    'key':key,
+                                    'loudness':loudness,
+                                    'speechiness':speechiness,
+                                    'acousticness':acousticness,
+                                    'instrumentalness':instrumentalness,
+                                    'liveness':liveness,
+                                    'valence':valence,
+                                    'tempo':tempo,
+                                    'duration_ms':duration_ms,
+                                    'combined_string': combined_string
+                                }
+
+                                add_online_df = add_online_df.append(online_row_dict, ignore_index = True)
 
 #sorting add_online_df by acousticness
     #i like acoustic music, this sorting allows songs that are more acoustic to appear at the top of the playlist

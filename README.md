@@ -18,7 +18,7 @@ Have written a blog post about why I coded this [here](http://shijith.com/blog/a
 * [playlist_ids_full.csv](playlist_ids_full.csv) which has a list of Spotify playlists you can aggregate 
 * [cred_spotify.py](cred_spotify.py) where you'll place your Spotify developer credentials 
 * [config_email.ini](config_email.ini) where you'll place your email credentials if you want be notified every week when the consolidated playlist is created
-* [master_list_online.csv](master_list_online.csv), which is a list of songs released recently. When the script comes across a song, it will check the song against this list to see if it's been on playlists earlier. The csv's been populated with tracks from playlists I'm aggregating.
+* [master_list_online.csv](master_list_online.csv), which is a list of songs released recently. When the script comes across a song, it will check the song against this list to see if it's been on playlists earlier. The csv's been populated with songs from playlists I'm aggregating.
 * [further_ideas_1.py](further_ideas_1.py) and [further_ideas_2.py](further_ideas_2.py) for inspiration on how to customize update_script.py  
 
 ### How to set it all up
@@ -50,7 +50,7 @@ You can either run the script locally or on a virtual machine (VM). (Schedule it
 
 (This section won't have much handholding. You'll have to get your hands dirty and figure things out on your own here!)
 
-* **Add new playlists** — You can also add other Spotify playlists to [playlist_ids_full.csv](playlist_ids_full.csv). First get the playlist_url from Share > 'Copy Link To Playlist' on the playlist's page. This [guide](https://www.geeksforgeeks.org/how-to-append-a-new-row-to-an-existing-csv-file/) will show you how to add new rows to a csv, use the 2nd method where a dictionary is appended as a new row. When adding a new row, the only values that are required are playlist_url and a 'yes' value in the INCLUDE column. The other values are optional, but it's nice to have that info so you know what each playlist is about.
+* **Add new playlists** — You can also add other Spotify playlists to [playlist_ids_full.csv](playlist_ids_full.csv). First get the playlist_url from Share > 'Copy Link To Playlist' on the playlist's page. This [guide](https://www.geeksforgeeks.org/how-to-append-a-new-row-to-an-existing-csv-file/) will show you how to add new rows to a csv. (Use the 2nd method where you append dictionaries as new rows. More typing, but clearer.) When adding a new row, the only values that are required are playlist_url and a 'yes' value in the INCLUDE column. The other values are optional, but it's nice to have that info so you know what each playlist is about.
 
 * **Retain previous weeks' tracks** — Right now the updates are done in such a way that tracks added last week are removed, and fresh tracks come in its place. But you can also modify the script to ensure the previous week's playlist isn't wiped clean, and new tracks from this week just get added to the top of the playlist. [further_ideas_1.py](further_ideas_1.py) will show you how to implement this.  
 
