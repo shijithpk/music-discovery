@@ -1,6 +1,6 @@
 ### About the repo
 
-This is an amateur coder's attempt to make it easier to find new music on Spotify, without using its algorithms. 
+This is an amateur coder's attempt to make it easier to find new music on Spotify without using its algorithms. 
 
 Essentially what I'm doing here is aggregating new music playlists from different publications and radio stations into a single playlist on Spotify.
 
@@ -61,4 +61,6 @@ You can either run the script locally or on a virtual machine (VM). (Schedule it
 ![Screenshot of email](https://i.imgur.com/mDGhrMf.png)
 
 ### Suggestions, criticism etc.
-I'm not a professional coder/developer/programmer, so am sure there are things here I could be doing better. If you have any suggestions, please contact me on mail@shijith.com or my twitter handle [@shijith](https://twitter.com/shijith). For example, I'd be especially interested in hearing if I should store the tracks and their details in a database instead of a CSV. Thought it would be overkill for a personal project like this, but was thinking that in a few years from now, the CSVs might get too large to do all the analysis in memory and could slow everything down. Let me know! :)
+I'm not a professional coder/developer/programmer, so am sure there are things here I could be doing better. If you have any suggestions, please contact me on mail@shijith.com or my twitter handle [@shijith](https://twitter.com/shijith).  
+
+For example, I'd be especially interested in hearing if I should store the tracks and their details in a database instead of a CSV. Thought it would be overkill for a personal project like this, but was thinking that in a few years from now, the CSVs might get too large to do all the analysis in memory and might slow everything down. Let me know! :)
