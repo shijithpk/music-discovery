@@ -58,7 +58,7 @@ You can either run the script locally or on a virtual machine (VM). (Schedule it
 
 * **Find out which playlists are inactive** — Some of the playlists you're aggregating, they might stop getting updates after a while, but you can use email to monitor how active different playlists are. [further_ideas_2.py](further_ideas_2.py) implements this by mailing me with info about each playlist's last update (screenshot below).
 
-+ ![Screenshot of email](https://i.imgur.com/mDGhrMf.png)
+![Screenshot of email](https://i.imgur.com/mDGhrMf.png)
 
 ### Suggestions, criticism etc.
 I'm not a professional coder/developer/programmer, so am sure there are things here I should be doing differently. If you have any suggestions, please contact me on mail@shijith.com or at my twitter handle [@shijith](https://twitter.com/shijith).  
