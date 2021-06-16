@@ -67,7 +67,7 @@ now = datetime.now()
 current_year = str(now.year)
 
 playlist_ids_df = pd.read_csv('playlist_ids_full.csv')
-master_list_online_df = pd.read_csv('master_list_online.csv')
+master_list_online_df = pd.read_csv('master_list_repo.csv')
     #this master_list_online_df is the list we will check for duplicates against
 
 #creating a dataframe that we will be merging with the master list online dataframe later on
@@ -198,7 +198,7 @@ for i in range(0, no_of_100s):
 
 #here we are adding all the songs from this week to the master_list csv    
 master_list_online_df = pd.concat([master_list_online_df, add_online_df], ignore_index=True, sort=False)
-master_list_online_df.to_csv('master_list_online.csv', index=False, encoding='utf-8')
+master_list_online_df.to_csv('master_list_repo.csv', index=False, encoding='utf-8')
 
 # Below is the code to notify you when the playlist is ready for listening
     # This is for anyone who's scheduled the script to run every week at a specific time using cron
