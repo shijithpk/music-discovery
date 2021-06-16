@@ -14,7 +14,7 @@ Have written a blog post about why I coded this [here](http://shijith.com/blog/a
 
 ### What you'll find here
 
-* [update_script.py](update_script.py) that does most of the work. 
+* [update_script.py](update_script.py) does most of the work — aggregating, removing duplicates etc.
 * [playlist_ids_full.csv](playlist_ids_full.csv) which has a list of Spotify playlists you can aggregate 
 * [cred_spotify.py](cred_spotify.py) where you'll place your Spotify developer credentials 
 * [config_email.ini](config_email.ini) where you'll place your email credentials, if you want be notified every week when the consolidated playlist is created
