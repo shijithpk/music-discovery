@@ -1,6 +1,7 @@
 ### About the repo
 
 This is an amateur coder's attempt to make it easier to find new music on Spotify without using its algorithms. 
+XXMAKE SHORTER, SIMPLER XX
 
 Essentially what I'm doing here is aggregating new music playlists from different publications and radio stations into a single playlist on Spotify.
 
@@ -42,14 +43,16 @@ Have written in more detail about why I coded this [here](http://shijith.com/blo
 ### How to use it
 Once everything's set up, just run the script `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
 
+A demo playlist created using the default choices can be seen [here----->PUT_LINK](PUT_LINK). The new music playlist that I personally use is mined from 33 different playlists and can be seen [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
+
 Note that the playlist is wiped clean and new tracks are added every time you run the script (as long as one of the playlists you're aggregating has been updated in the meantime). So you'll need to get through the songs on the playlist before you run the script again. 
 
 You don't have to make it a chore though. Just have the playlist running while you're working/browsing/doomscrolling. 'Like' songs to add them to your liked songs list and skip liberally. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with your liked songs. (Put some on a workout playlist, others on an office playlist etc.)
 
 ### If you're running it in the cloud
-You only have to run the script once a week, so you can host it locally. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). But you can run it from a virtual machine (VM) in the cloud too. I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
+You only have to run the script once a week, so hosting it locally won't be an issue. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). But you can run it from a virtual machine (VM) in the cloud too. I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
 
-Also, before running it in the cloud, just make sure to run the script locally once and then upload the directory to your VM. A local run creates these 'access tokens' and 'refresh tokens' in a hidden .cache file that are important for accessing the Spotify API. You'll have to copy and paste an authorization code manually the first time you run the script, but after that everything can be automated.
+Before running it in the cloud, just make sure to run the script locally once and then upload the directory to your VM. A local run creates these 'access tokens' and 'refresh tokens' in a hidden .cache file that are important for accessing the Spotify API. You'll have to copy and paste an authorization code manually the first time you run the script, but after that everything can be automated.
 
 ### Further customization
 
