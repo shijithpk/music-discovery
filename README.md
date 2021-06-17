@@ -43,9 +43,9 @@ Have written in more detail about why I coded this [here](http://shijith.com/blo
 ### How to use it
 Once everything's set up, just run the script `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
 
-A demo playlist created using the default choices can be seen [here----->PUT_LINK](PUT_LINK). The new music playlist that I personally use is mined from 33 different playlists and can be seen [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
+A demo playlist created from the default choices can be seen [here----->PUT_LINK](PUT_LINK). My own personal playlist aggregates 33 new music playlists and can be seen [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
 
-Note that the playlist is wiped clean and new tracks are added every time you run the script (as long as one of the playlists you're aggregating has been updated in the meantime). So you'll need to get through the songs on the playlist before you run the script again. 
+Note that your playlist is wiped clean and new tracks are added every time you run the script (as long as one of the playlists you're aggregating has been updated in the meantime). So you'll need to get through the songs on the playlist before you run the script again. 
 
 You don't have to make it a chore though. Just have the playlist running while you're working/browsing/doomscrolling. 'Like' songs to add them to your liked songs list and skip liberally. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with your liked songs. (Put some on a workout playlist, others on an office playlist etc.)
 
@@ -60,7 +60,7 @@ Before running it in the cloud, just make sure to run the script locally once an
 
 * **Add new playlists** — You can also add other Spotify playlists to [playlist_ids_full.csv](playlist_ids_full.csv). First get the playlist_url from Share > 'Copy Link To Playlist' on the playlist's page. This [guide](https://www.geeksforgeeks.org/how-to-append-a-new-row-to-an-existing-csv-file/) will show you how to add new rows to a csv. (Use the 2nd method where you append dictionaries as new rows. Has more typing, but it's clearer.) When adding a new row, the only values that are required are a playlist_url and a 'yes' value in the INCLUDE column. The other values are optional, but it's nice to have that info so you know what each playlist is about.
 
-* **Retain previous weeks' tracks** — Right now the updates are done in such a way that tracks added last week are removed, and fresh tracks come in its place. But you can also modify the script to ensure the previous week's playlist isn't wiped clean, and new tracks from this week just get added to the top of the playlist. [further_ideas_1.py](further_ideas_1.py) will show you how to implement this.  
+* **Retain tracks from previous weeks** — Right now the updates are done in such a way that tracks added last week are removed, and fresh tracks come in its place. But you can also modify the script to ensure the previous week's playlist isn't wiped clean, and new tracks from this week just get added to the top of the playlist. [further_ideas_1.py](further_ideas_1.py) will show you how to implement this.  
 
 * **Deal with the 10,000 song-limit** — If you decide to retain songs from previous weeks, one issue that you will bump up against is the limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000. Instead of deleting older tracks, another thing you could do is create a new playlist and add songs to that. [further_ideas_2.py](further_ideas_2.py) will show you how to automate the process. 
 
