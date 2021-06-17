@@ -228,8 +228,12 @@ message["To"] = receiver_email
 today = datetime.today().strftime('%Y-%m-%d')
 message["Subject"] = "Playlist update done for the week " + today
 
-plain_text = "Playlist update done for the week"
-part1 = MIMEText(plain_text, "plain")
+# plain_text = "Playlist update done for the week"
+# part1 = MIMEText(plain_text, "plain")
+# message.attach(part1)
+
+htmlx = "<html>Playlist update done for the week.<br>Open the playlist in <a style='color: blue' target='_blank' href='spotify:user:{}:playlist:{}'>Spotify</a><br>Open it in the <a style='color: blue' href='https://open.spotify.com/user/{}/playlist/{}'>browser</a></html>".format(current_user_id, playlist_id_to_update,current_user_id, playlist_id_to_update)
+part1 = MIMEText(htmlx, "html")
 message.attach(part1)
 
 s = smtplib.SMTP('smtp.gmail.com', 587)
