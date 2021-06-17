@@ -43,9 +43,9 @@ Have written in more detail about why I coded this [here](http://shijith.com/blo
 ### How to use it
 Once everything's set up, just run the script `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
 
-A demo playlist created from the default choices can be seen [here----->PUT_LINK](PUT_LINK). My own personal playlist aggregates 33 new music playlists and can be seen [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
+A demo playlist created from the six default choices can be seen [here----->PUT_LINK](PUT_LINK). My own personal playlist aggregates 33 new music playlists and is available [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
 
-Note that your playlist is wiped clean and new tracks are added every time you run the script (as long as one of the playlists you're aggregating has been updated in the meantime). So you'll need to get through the songs on the playlist before you run the script again. 
+Note that your playlist is wiped clean and new tracks are added every time you run the script. So you'll need to get through the songs on the playlist before you run the script again. 
 
 You don't have to make it a chore though. Just have the playlist running while you're working/browsing/doomscrolling. 'Like' songs to add them to your liked songs list and skip liberally. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with your liked songs. (Put some on a workout playlist, others on an office playlist etc.)
 
