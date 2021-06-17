@@ -37,8 +37,6 @@ Have written in more detail about why I coded this [here](http://shijith.com/blo
 
 5. **Choose playlists to aggregate** — [playlist_ids_full.csv](playlist_ids_full.csv) has a list of Spotify playlists you can aggregate. Info on each playlist is available in the name and description. If you think you want to include a playlist, just put 'yes' against it in the INCLUDE column. And if you don't want to include it, just leave the cell under INCLUDE blank. 6 playlists (Pitchfork, Rolling Stone, KCRW from the US. Line of Best Fit, NME, BBC Radio 6 from the UK) have been pre-selected to give you some default choices to start with, but they can be un-selected.  
 
-![Screenshot of spreadsheet](https://i.imgur.com/PxjoKLB.png)
-
 6. **Change the country code** — You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (You can find the code from this [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b).) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that is licensed, so you'll have fewer tracks missing.  
 
 ### How to use it
