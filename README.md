@@ -9,7 +9,7 @@ Also, instead of going from playlist to playlist on Spotify, you save time by ju
 
 Have written in more detail about why I coded this [here](http://shijith.com/blog/automating-music-discovery/).
 
-If you don't want to run any code and just want the music, a demo playlist created using the default setting is available [here----->PUT_LINK](PUT_LINK). My own personal playlist mines 33 new music playlists and is available [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
+If you don't want to run any code and just want the music, a demo playlist created using the default settings is available [here----->PUT_LINK](PUT_LINK). My own personal playlist mines 33 new music playlists and can be seen [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
 
 
 ### Who this is for
@@ -20,7 +20,7 @@ If you don't want to run any code and just want the music, a demo playlist creat
 * Users outside the US and UK who want some diversity in their English-language music 
 * Anyone who wants to simplify their Spotify experience
 
-### What you'll find here
+### What's there in the repo
 
 * [update_script.py](update_script.py) does most of the work — aggregating, removing duplicates etc.
 * [playlist_ids_full.csv](playlist_ids_full.csv) which has a list of Spotify playlists you can aggregate 
@@ -29,7 +29,7 @@ If you don't want to run any code and just want the music, a demo playlist creat
 * [master_list_repo.csv](master_list_repo.csv), which is a list of songs released recently. When the script comes across a song, it will check the song against this csv to see if it's been on playlists earlier. The csv's populated with songs from playlists I've been aggregating.
 * [further_ideas_1.py](further_ideas_1.py) and [further_ideas_2.py](further_ideas_2.py) for inspiration on how to customize update_script.py  
 
-### How to set it all up
+### How to set things up
 
 1. Clone the repo with `git clone https://github.com/shijithpk/music-discovery.git`
 
@@ -43,19 +43,27 @@ If you don't want to run any code and just want the music, a demo playlist creat
 
 6. **Change the country code** — You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (You can find the code from this [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b).) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that is licensed, so you'll have fewer tracks missing.  
 
-### How to use it
-Once everything's set up, just run the script `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
+### How it all works
 
-A demo playlist created from the six default choices can be seen [here----->PUT_LINK](PUT_LINK).
+The script looks at [playlist_ids_full.csv](playlist_ids_full.csv) and sees what new music playlists you've chosen. Then it goes to each playlist and collects the songs on it. If a song is already in [master_list_repo.csv](master_list_repo.csv), it skips the song. But if the song's not there, the script adds it to a new playlist in your Spotify library. It also makes note of the song, so that if another playlist has it that week, the song doesn't get added to your personal playlist twice. The script also adds the song to [master_list_repo.csv](master_list_repo.csv), so that it gets skipped in next week's run.
+
+### How to use the script
+After everything's set up, just run the script with `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
+
+A demo playlist created using the six default choices is [here----->PUT_LINK](PUT_LINK).
 
 Note that your playlist is wiped clean and new tracks are added every time you run the script. So you'll need to get through the songs on the playlist before you run the script again. 
 
 You don't have to make it a chore though. Just have the playlist running while you're working/browsing/doomscrolling. 'Like' songs to add them to your liked songs list and skip liberally. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with your liked songs. (Put some on a workout playlist, others on an office playlist etc.)
 
-### If you're running it in the cloud
-You only have to run the script once a week, so hosting it locally won't be an issue. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). But you can run it from a virtual machine (VM) in the cloud too. I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
+### Running it in the cloud
+You only have to run the script once a week and it gets done in under half an hour, so hosting it locally won't be an issue. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). But you can run it from a virtual machine (VM) in the cloud too. I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
 
 Before running it in the cloud, just make sure to run the script locally once and then upload the directory to your VM. A local run creates these 'access tokens' and 'refresh tokens' in a hidden .cache file that are important for accessing the Spotify API. You'll have to copy and paste an authorization code manually the first time you run the script, but after that everything can be automated.
+
+### Warning!
+
+* **Don't change the playlist name from Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So if the script can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying this line `playlist_title_to_update = 'New Music for ' + current_user_id`.
 
 ### Further customization
 
