@@ -63,7 +63,7 @@ Before running it in the cloud, just make sure to run the script locally once an
 
 ### Things to keep in mind
 
-* **Don't change the playlist name from Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So if the script can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying this line `playlist_title_to_update = 'New Music for ' + current_user_id`.
+* **Don't change the playlist name from Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line `playlist_title_to_update = 'New Music for ' + current_user_id`.
 
 ### Further customization
 
