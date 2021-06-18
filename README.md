@@ -9,6 +9,9 @@ Also, instead of going from playlist to playlist on Spotify, you save time by ju
 
 Have written in more detail about why I coded this [here](http://shijith.com/blog/automating-music-discovery/).
 
+If you don't want to run any code and just want the music, a demo playlist created using the default setting is available [here----->PUT_LINK](PUT_LINK). My own personal playlist mines 33 new music playlists and is available [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
+
+
 ### Who this is for
 
 * Amateur coders who want to spend less time finding new music
@@ -43,7 +46,7 @@ Have written in more detail about why I coded this [here](http://shijith.com/blo
 ### How to use it
 Once everything's set up, just run the script `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
 
-A demo playlist created from the six default choices can be seen [here----->PUT_LINK](PUT_LINK). My own personal playlist aggregates 33 new music playlists and is available [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
+A demo playlist created from the six default choices can be seen [here----->PUT_LINK](PUT_LINK).
 
 Note that your playlist is wiped clean and new tracks are added every time you run the script. So you'll need to get through the songs on the playlist before you run the script again. 
 
