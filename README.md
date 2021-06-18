@@ -61,7 +61,7 @@ You only have to run the script once a week and it gets done in under half an ho
 
 Before running it in the cloud, just make sure to run the script locally once and then upload the directory to your VM. A local run creates these 'access tokens' and 'refresh tokens' in a hidden .cache file that are important for accessing the Spotify API. You'll have to copy and paste an authorization code manually the first time you run the script, but after that everything can be automated.
 
-### Warning!
+### Things to keep in mind
 
 * **Don't change the playlist name from Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So if the script can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying this line `playlist_title_to_update = 'New Music for ' + current_user_id`.
 
