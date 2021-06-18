@@ -45,7 +45,9 @@ If you don't want to run any code and just want the music, a demo playlist creat
 
 ### How it all works
 
-The script looks at [playlist_ids_full.csv](playlist_ids_full.csv) and sees what new music playlists you've chosen. Then it goes to each playlist and collects the songs on it. If a song is already in [master_list_repo.csv](master_list_repo.csv), it skips the song. But if the song's not there, the script adds it to a new playlist in your Spotify library. It also makes note of the song, so that if another playlist has it that week, the song doesn't get added to your personal playlist twice. The script also adds the song to [master_list_repo.csv](master_list_repo.csv), so that it gets skipped in next week's run.
+The script looks at [playlist_ids_full.csv](playlist_ids_full.csv) and sees what new music playlists you've chosen. Then it goes to each playlist and collects the songs on it. If a song is already in [master_list_repo.csv](master_list_repo.csv), it skips the song. But if the song's not there, the script adds it to a new playlist in your Spotify library. It also makes note of the song, so that if another playlist has it that week, the song doesn't get added to your personal playlist twice. The script also adds the song to [master_list_repo.csv](master_list_repo.csv), so that it gets skipped in next week's run. 
+
+There's more details in [update_script.py](update_script.py), it's heavily commented, so you'll know what's going on at each step.
 
 ### How to use the script
 After everything's set up, just run the script with `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
