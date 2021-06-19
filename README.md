@@ -27,9 +27,9 @@ If you don't want to run any code and just want the music, a demo playlist creat
 
 * [update_script.py](update_script.py) does most of the work — aggregating, removing duplicates etc.
 * [playlist_ids_full.csv](playlist_ids_full.csv) which has a list of Spotify playlists you can aggregate 
+* [master_list_repo.csv](master_list_repo.csv), which is a list of songs released recently. When the script comes across a song, it will check the song against this csv to see if it's been on playlists earlier. The csv's populated with songs from playlists I've been aggregating.
 * [cred_spotify.py](cred_spotify.py) where you'll place your Spotify developer credentials 
 * [config_email.ini](config_email.ini) where you'll place your email credentials, if you want be notified every week when the consolidated playlist is created
-* [master_list_repo.csv](master_list_repo.csv), which is a list of songs released recently. When the script comes across a song, it will check the song against this csv to see if it's been on playlists earlier. The csv's populated with songs from playlists I've been aggregating.
 * [further_ideas_1.py](further_ideas_1.py) and [further_ideas_2.py](further_ideas_2.py) for inspiration on how to customize update_script.py  
 
 ### How to set things up
@@ -42,7 +42,7 @@ If you don't want to run any code and just want the music, a demo playlist creat
 
 4. **Choose playlists to aggregate** — [playlist_ids_full.csv](playlist_ids_full.csv) has a list of Spotify playlists you can aggregate. Info on each playlist is available in the name and description. If you think you want to include a playlist, just put 'yes' against it in the INCLUDE column. And if you don't want to include it, just leave the cell under INCLUDE blank. 6 playlists (Pitchfork, Rolling Stone, KCRW from the US and Line of Best Fit, NME, BBC Radio 6 from the UK) have been pre-selected to give you some default choices to start with, but they can be un-selected.
 
-5. **Change the country code** — You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (You can find the code from this [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b).) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that is licensed, so you'll have fewer tracks missing.  
+5. **Change the country code** — You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (You can find the code from this [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b).) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that *is* licensed, so you'll have fewer tracks missing.  
 
 ### How it all works
 
@@ -54,7 +54,7 @@ There's more details in [update_script.py](update_script.py), it's heavily comme
 
 After everything's set up, just run the script with `python3 update_script.py`. 
 
-The first time you run it, you'll be asked to go to a url. After you go there, you'll be then redirected to a url that contains an authorization code from Spotify. Copy and paste what's in the address bar into the terminal, after which the script starts running. This only needs to be done the first time, after this everything can be automated.
+The first time you run it, you'll be asked to go to a url. After you go there, you'll be redirected to a url that contains an authorization code from Spotify. Copy and paste what's in the address bar into the terminal, after which the script starts running. This only needs to be done the first time, after this everything can be automated.
 
 Things should be done in under half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
 
@@ -77,7 +77,8 @@ You only have to run the script once a week, so hosting it locally should't be a
 
 * **Get email notifications** — If you want to be notified by email when your playlist is ready, you'll need to create a new mail id to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has detailed instructions on how to use gmail programatically to send emails. Then put in the email id where you want to receive the mail, the new email id you've created and its password into [config_email.ini](config_email.ini). Then go into [update_script.py](update_script.py) and uncomment the part at the end that deals with email.
 
-* **Follow playlists you choose on Spotify** — Right now the script just mines the playlists you choose. But it can also follow these playlists on your behalf to boost their follower count and give something back. Have disabled this option because every playlist you follow will appear in your Spotify library, and I didn't want to clutter your library with 20-30 playlists at one go. What I do is I follow the playlists I aggregate, but I put them in a separate folder to keep my library tidy. Go into the script and uncomment this part to enable the follow option.
+* **Follow playlists you've chosen** — Right now the script just mines the playlists you've chosen. But it can also follow these playlists on your behalf to boost their follower count and give something back. Have disabled this option because every playlist you follow will appear in your Spotify library, and I didn't want to clutter your library with 20-30 playlists at one go. What I do is I follow the playlists I aggregate, but I put them in a separate folder to keep my library tidy. Go into the script and uncomment the part below to enable the follow option.
+
 ```
     # if not sp.playlist_is_following(playlist_id[current_user_id])[0]:
     #     sp.current_user_follow_playlist(playlist_id)
