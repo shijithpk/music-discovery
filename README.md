@@ -12,7 +12,7 @@ Have written in more detail about why I coded this [here](http://shijith.com/blo
 YOU HAVE TWO OPTIONS, IF YOU JUST WANT THE MUSIC
 6 PLAYLISTS, SHOULD MEET MOST PEOPLE'S NEEDS
 
-If you don't want to run any code and just want the music, a demo playlist created using the default settings is available [here----->PUT_LINK](PUT_LINK). My own personal playlist mines 33 new music playlists and can be seen [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
+If you don't want to run any code and just want the music, a demo playlist created using the default settings is available [here](https://open.spotify.com/playlist/0kqXhlpDiRbab64ip8g8Ap). My own personal playlist mines 33 new music playlists and can be seen [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
 
 
 ### Who this is for
@@ -40,11 +40,9 @@ If you don't want to run any code and just want the music, a demo playlist creat
 
 3. **Create Spotify credentials** — You'll need to [set up](https://www.section.io/engineering-education/spotify-python-part-1/) a developer account at Spotify, if you don't have one already. Then put your client id, client secret and redirect url into [cred_spotify.py](cred_spotify.py).
 
-4. **Create a new mail id** — This is optional, but if you want to be notified by email every week when your playlist is ready, you'll need to create a new mail id to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has detailed instructions on how to use gmail programatically to send emails. Then put in the email id where you want to receive the mail, the new email id you've created and its password into [config_email.ini](config_email.ini). (And if you decide against email notifications, go into [update_script.py](update_script.py) and delete the part dealing with email.)
+4. **Choose playlists to aggregate** — [playlist_ids_full.csv](playlist_ids_full.csv) has a list of Spotify playlists you can aggregate. Info on each playlist is available in the name and description. If you think you want to include a playlist, just put 'yes' against it in the INCLUDE column. And if you don't want to include it, just leave the cell under INCLUDE blank. 6 playlists (Pitchfork, Rolling Stone, KCRW from the US and Line of Best Fit, NME, BBC Radio 6 from the UK) have been pre-selected to give you some default choices to start with, but they can be un-selected.
 
-5. **Choose playlists to aggregate** — [playlist_ids_full.csv](playlist_ids_full.csv) has a list of Spotify playlists you can aggregate. Info on each playlist is available in the name and description. If you think you want to include a playlist, just put 'yes' against it in the INCLUDE column. And if you don't want to include it, just leave the cell under INCLUDE blank. 6 playlists (Pitchfork, Rolling Stone, KCRW from the US and Line of Best Fit, NME, BBC Radio 6 from the UK) have been pre-selected to give you some default choices to start with, but they can be un-selected.
-
-6. **Change the country code** — You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (You can find the code from this [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b).) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that is licensed, so you'll have fewer tracks missing.  
+5. **Change the country code** — You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (You can find the code from this [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b).) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that is licensed, so you'll have fewer tracks missing.  
 
 ### How it all works
 
@@ -56,11 +54,11 @@ There's more details in [update_script.py](update_script.py), it's heavily comme
 
 After everything's set up, just run the script with `python3 update_script.py`. 
 
-The first time you run it, you'll get a message to go to a url. After you go there, you'll be redirected to a url that contains an authorization code from Spotify. Copy and paste what's in the address bar into the terminal, after which the script starts running. This only needs to be done the first time, after this everything can be automated.
+The first time you run it, you'll be asked to go to a url. After you go there, you'll be then redirected to a url that contains an authorization code from Spotify. Copy and paste what's in the address bar into the terminal, after which the script starts running. This only needs to be done the first time, after this everything can be automated.
 
 Things should be done in under half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
 
-A demo playlist created using the six default choices is [here----->PUT_LINK](PUT_LINK).
+A demo playlist created using the six default choices is [here](https://open.spotify.com/playlist/0kqXhlpDiRbab64ip8g8Ap).
 
 Note that your playlist is wiped clean and new tracks are added every time you run the script. So you'll need to get through the songs on the playlist before you run the script again. 
 
@@ -75,7 +73,15 @@ You only have to run the script once a week, so hosting it locally should't be a
 
 ### Further customization
 
-(This section won't have much handholding. You'll have to get your hands dirty and figure things out on your own here!)
+(This section won't have much handholding. You'll have to get your hands dirty, and figure things out on your own sometimes!)
+
+* **Get email notifications** — If you want to be notified by email when your playlist is ready, you'll need to create a new mail id to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has detailed instructions on how to use gmail programatically to send emails. Then put in the email id where you want to receive the mail, the new email id you've created and its password into [config_email.ini](config_email.ini). Then go into [update_script.py](update_script.py) and uncomment the part at the end that deals with email.
+
+* **Follow playlists you choose on Spotify** — Right now the script just mines the playlists you choose. But it can also follow these playlists on your behalf to boost their follower count. Have disabled this option because every playlist you follow will appear in your Spotify library, and I didn't want to clutter your library with 20-30 playlists at one go. What I do is I follow the playlists I aggregate, but I put them in a separate folder to keep my library tidy. Go into the script and uncomment this part to enable the follow option.
+```
+    # if not sp.playlist_is_following(playlist_id[current_user_id])[0]:
+    #     sp.current_user_follow_playlist(playlist_id)
+```
 
 * **Add new playlists** — You can also add other Spotify playlists to [playlist_ids_full.csv](playlist_ids_full.csv). First get the playlist_url from Share > 'Copy Link To Playlist' on the playlist's page. This [guide](https://www.geeksforgeeks.org/how-to-append-a-new-row-to-an-existing-csv-file/) will show you how to add new rows to a csv. (Use the 2nd method where you append dictionaries as new rows. Has more typing, but it's clearer.) When adding a new row, the only values that are required are a playlist_url and a 'yes' value in the INCLUDE column. The other values are optional, but it's nice to have that info so you know what each playlist is about.
 

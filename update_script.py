@@ -87,6 +87,20 @@ for index,row in playlist_ids_df.iterrows():
             #and like this https://open.spotify.com/playlist/5359l8Co8qztllR0Mxk4Zv
     include_boolean = row['INCLUDE']
 
+    #Option to follow the playlist you've chosen on Spotify
+    #have commented it out because every playlist you follow
+        #will appear in your spotify library and I didnt 
+        #want to clutter your Spotify library with 20-30 
+        #playlists at one go. What I do is I follow the 
+        #new music playlists so that it helps their 
+        #follower count, but I put them in a separate folder
+        #so that my library doesnt look cluttered
+
+    #UNCOMMENT BLOCK BELOW IF YOU WANT TO GIVE THE PLAYLISTS YOU CHOOSE A FOLLOW
+    # if not sp.playlist_is_following(playlist_id,
+    #                                 [current_user_id])[0]:
+    #     sp.current_user_follow_playlist(playlist_id)
+
     if ((include_boolean == 'yes') or (include_boolean == 'Yes') or (include_boolean == 'YES')):
 
         # here we are getting all the tracks of a constitutent playlist
@@ -206,35 +220,37 @@ master_list_online_df.to_csv('master_list_online.csv', index=False, encoding='ut
     # you can also do things like phone notifications using pushbullet https://pypi.org/project/pushbullet.py/
     # email code lifted from https://realpython.com/python-send-email/#sending-fancy-emails , 
             #https://stackoverflow.com/questions/882712/sending-html-email-using-python and various other stackoverflow posts
-    # IF YOU DONT WANT ANY EMAIL NOTIFICATIONS, YOU CAN JUST COMMENT OUT OR DELETE EVERYTHING BELOW THIS LINE
+            
+    # IF YOU WANT EMAIL NOTIFICATIONS, UNCOMMENT EVERYTHING BELOW THIS LINE
 
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-import configparser
+# import smtplib
+# from email.mime.text import MIMEText
+# from email.mime.multipart import MIMEMultipart
+# import configparser
 
-config = configparser.ConfigParser()
-config.read('config_email.ini')
+# config = configparser.ConfigParser()
+# config.read('config_email.ini')
 
-receiver_email = config['info']['email'] 
-sender_email = config['info']['sender_email'] 
-sender_password = config['info']['sender_password'] 
+# receiver_email = config['info']['email'] 
+# sender_email = config['info']['sender_email'] 
+# sender_password = config['info']['sender_password'] 
 
-message = MIMEMultipart()
-message["From"] = sender_email
-message["To"] = receiver_email
+# message = MIMEMultipart()
+# message["From"] = sender_email
+# message["To"] = receiver_email
 
-today = datetime.today().strftime('%b %d, %Y')
+# today = datetime.today().strftime('%b %d, %Y')
 
-message["Subject"] = "Playlist update done — " + today
+# message["Subject"] = "Playlist update done — " + today
 
-htmlx = "<html>Update done. Open the <a style='color: blue' href='https://open.spotify.com/user/{}/playlist/{}'>playlist</a>.</html>".format(current_user_id, playlist_id_to_update)
-part1 = MIMEText(htmlx, "html")
-message.attach(part1)
+# htmlx = "<html>Update done. Open the <a style='color: blue' href='https://open.spotify.com/user/{}/playlist/{}'>playlist</a>.</html>".format(current_user_id, playlist_id_to_update)
+# part1 = MIMEText(htmlx, "html")
+# message.attach(part1)
 
-s = smtplib.SMTP('smtp.gmail.com', 587)
-s.ehlo()
-s.starttls() 
-s.login(sender_email, sender_password)
-s.sendmail(sender_email, receiver_email, message.as_string()) 
-s.quit()
+# s = smtplib.SMTP('smtp.gmail.com', 587)
+# s.ehlo()
+# s.starttls() 
+# s.login(sender_email, sender_password)
+# s.sendmail(sender_email, receiver_email, message.as_string()) 
+# s.quit()
+
