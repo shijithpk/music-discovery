@@ -82,13 +82,10 @@ for index,row in playlist_ids_df.iterrows():
     playlist_url = row['playlist_url']
     regex_pattern = r'.+playlist\/(.+?(?=\?|$))'
     playlist_id = re.match(regex_pattern, playlist_url).group(1)
-    #so this will get the playlist id from both
+    #so this regex will get the playlist id from both
         #urls like this https://open.spotify.com/playlist/5359l8Co8qztllR0Mxk4Zv?si=bb87bb1789b240e7
             #and like this https://open.spotify.com/playlist/5359l8Co8qztllR0Mxk4Zv
-    # playlist_id = row['playlist_id']
     include_boolean = row['INCLUDE']
-    playlist_name = row['playlist_name']
-    source = row['source']
 
     if ((include_boolean == 'yes') or (include_boolean == 'Yes') or (include_boolean == 'YES')):
 
@@ -227,14 +224,11 @@ message = MIMEMultipart()
 message["From"] = sender_email
 message["To"] = receiver_email
 
-today = datetime.today().strftime('%Y-%m-%d')
-message["Subject"] = "Playlist update done for the week " + today
+today = datetime.today().strftime('%b %d, %Y')
 
-# plain_text = "Playlist update done for the week"
-# part1 = MIMEText(plain_text, "plain")
-# message.attach(part1)
+message["Subject"] = "Playlist update done — " + today
 
-htmlx = "<html>Playlist update done for the week.<br>Open the playlist in <a style='color: blue' target='_blank' href='spotify:user:{}:playlist:{}'>Spotify</a><br>Open it in the <a style='color: blue' href='https://open.spotify.com/user/{}/playlist/{}'>browser</a></html>".format(current_user_id, playlist_id_to_update,current_user_id, playlist_id_to_update)
+htmlx = "<html>Update done. Open the <a style='color: blue' href='https://open.spotify.com/user/{}/playlist/{}'>playlist</a>.</html>".format(current_user_id, playlist_id_to_update)
 part1 = MIMEText(htmlx, "html")
 message.attach(part1)
 

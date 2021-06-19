@@ -9,6 +9,9 @@ Also, instead of going from playlist to playlist on Spotify, you save time by ju
 
 Have written in more detail about why I coded this [here](http://shijith.com/blog/automating-music-discovery/).
 
+YOU HAVE TWO OPTIONS, IF YOU JUST WANT THE MUSIC
+6 PLAYLISTS, SHOULD MEET MOST PEOPLE'S NEEDS
+
 If you don't want to run any code and just want the music, a demo playlist created using the default settings is available [here----->PUT_LINK](PUT_LINK). My own personal playlist mines 33 new music playlists and can be seen [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
 
 
@@ -50,7 +53,12 @@ The script looks at [playlist_ids_full.csv](playlist_ids_full.csv) and sees what
 There's more details in [update_script.py](update_script.py), it's heavily commented, so you'll know what's going on at each step.
 
 ### How to use the script
-After everything's set up, just run the script with `python3 update_script.py`. Things should be done in half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
+
+After everything's set up, just run the script with `python3 update_script.py`. 
+
+The first time you run it, you'll get a message to go to a url. After you go there, you'll be redirected to a url that contains an authorization code from Spotify. Copy and paste what's in the address bar into the terminal, after which the script starts running. This only needs to be done the first time, after this everything can be automated.
+
+Things should be done in under half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
 
 A demo playlist created using the six default choices is [here----->PUT_LINK](PUT_LINK).
 
@@ -59,9 +67,7 @@ Note that your playlist is wiped clean and new tracks are added every time you r
 You don't have to make it a chore though. Just have the playlist running while you're working/browsing/doomscrolling. 'Like' songs to add them to your liked songs list and skip liberally. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with your liked songs. (Put some on a workout playlist, others on an office playlist etc.)
 
 ### Running it in the cloud
-You only have to run the script once a week and it gets done in under half an hour, so hosting it locally won't be an issue. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). But you can run it from a virtual machine (VM) in the cloud too. I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
-
-Before running it in the cloud, just make sure to run the script locally once and then upload the directory to your VM. A local run creates these 'access tokens' and 'refresh tokens' in a hidden .cache file that are important for accessing the Spotify API. You'll have to copy and paste an authorization code manually the first time you run the script, but after that everything can be automated.
+You only have to run the script once a week, so hosting it locally should't be an issue. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). But you can run it from a virtual machine (VM) in the cloud too. I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
 
 ### Things to keep in mind
 
