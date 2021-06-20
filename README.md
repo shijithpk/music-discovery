@@ -69,19 +69,19 @@ You only have to run the script once a week, so hosting it locally should't be a
 
 ### Things to keep in mind
 
-* **Don't change the playlist name from Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line.  
+* **Don't change the playlist name from Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line:  
 `playlist_title_to_update = 'New Music for ' + current_user_id`.
 
 ### Further customization
 
 (This section won't have much handholding. You'll have to get your hands dirty, and figure things out on your own sometimes!)
 
-* **Get email notifications** — If you want to be notified by email when your playlist is ready, you'll need to create a new mail id to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has detailed instructions on how to use gmail programatically to send emails. Then put in the email id where you want to receive the mail, the new email id you've created and its password into [config_email.ini](config_email.ini). Then go into [update_script.py](update_script.py) and uncomment the part at the end that deals with email.
+* **Get email notifications** — If you want to be notified by email when your playlist is ready, you'll need to create a new mail id to send those mails to yourself. This [page](https://realpython.com/python-send-email/) has detailed instructions on how to use gmail programatically to send emails. Then put in the email id where you want to receive the mail, the new email id you've created and its password into [config_email.ini](config_email.ini). Then go into [update_script.py](update_script.py) and uncomment the part at the end for email.
 
-* **Follow playlists you've chosen** — Right now the script just mines the playlists you've chosen. But it can also follow these playlists on your behalf to boost their follower count and give something back. Have disabled this option because every playlist you follow will appear in your Spotify library, and I didn't want to clutter your library with 20-30 playlists at one go. Personally, what I do is I follow the playlists I aggregate, but I put them in a separate folder to keep my library tidy. Go into the script and uncomment the part below to enable the option.
+* **Follow playlists you've chosen** — Right now the script just mines the playlists you've chosen. But it can also follow these playlists on your behalf to boost their follower count and give something back. Have disabled this option because every playlist you follow will appear in your Spotify library, and I didn't want to clutter your library with 20-30 playlists at one go. What I do personally is I follow the playlists I aggregate, but I put them in a separate folder to keep my library tidy. Go into the script and uncomment the part below to enable the option.
 
 ```
-    # if not sp.playlist_is_following(playlist_id[current_user_id])[0]:
+    # if not sp.playlist_is_following(playlist_id, [current_user_id])[0]:
     #     sp.current_user_follow_playlist(playlist_id)
 ```
 
