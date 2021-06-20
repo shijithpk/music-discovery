@@ -4,7 +4,7 @@ This is an amateur coder's attempt to automate music discovery on Spotify by agg
 
 Essentially what I'm doing here is consolidating new music playlists from different publications and radio stations into a single playlist on Spotify.
 
-Have written in more detail about why I coded this in a [blog post](http://shijith.com/blog/automating-music-discovery/).
+Have written in more detail about why I coded it in this [blog post](http://shijith.com/blog/automating-music-discovery/).
 
 If you don't want to code anything and just want the music, you have two options:
 1. a demo playlist created using the default settings [here](https://open.spotify.com/playlist/0kqXhlpDiRbab64ip8g8Ap).
