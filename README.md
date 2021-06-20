@@ -54,7 +54,7 @@ There's more details in [update_script.py](update_script.py). It's heavily comme
 
 After everything's set up, just run the script with `python3 update_script.py`. 
 
-The first time you run it, you'll be asked to go to a url. After you go there, you'll be redirected to a url that contains an authorization code from Spotify. Copy and paste what's in the address bar into the terminal, after which the script starts running. This only needs to be done the first time, after this everything can be automated.
+The first time you run it, you'll be asked to go to a url. After you go there, you'll be redirected to another url that contains an authorization code from Spotify. Copy and paste what's in the address bar into the terminal, after which the script starts running. This only needs to be done the first time, after this everything can be automated.
 
 Things should be done in under half an hour, after which you'll find in your Spotify libary a playlist titled 'New Music for \< your Spotify user id \>'. The playlist is set to private, but you can make it public if you want.
 
@@ -69,7 +69,7 @@ You only have to run the script once a week, so hosting it locally should't be a
 
 ### Things to keep in mind
 
-* **Don't change the playlist name from inside Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line:  
+* **Don't change the playlist name inside Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line:  
 `playlist_title_to_update = 'New Music for ' + current_user_id`.
 
 ### Further customization
