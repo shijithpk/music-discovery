@@ -1,18 +1,14 @@
 ### About the repo
 
-This is an amateur coder's attempt to make it easier to find new music on Spotify without using its algorithms. 
-XXMAKE SHORTER, SIMPLER XX
+This is an amateur coder's attempt to automate music discovery on Spotify by aggregating tastemaker preferences. Or in simpler words, find new music on Spotify by combining the choices of experts.
 
-Essentially what I'm doing here is aggregating new music playlists from different publications and radio stations into a single playlist on Spotify.
-
-Also, instead of going from playlist to playlist on Spotify, you save time by just visiting one.
+Essentially what I'm doing here is consolidating new music playlists from different publications and radio stations into a single playlist on Spotify.
 
 Have written in more detail about why I coded this [here](http://shijith.com/blog/automating-music-discovery/).
 
-YOU HAVE TWO OPTIONS, IF YOU JUST WANT THE MUSIC
-6 PLAYLISTS, SHOULD MEET MOST PEOPLE'S NEEDS
-
-If you don't want to run any code and just want the music, a demo playlist created using the default settings is available [here](https://open.spotify.com/playlist/0kqXhlpDiRbab64ip8g8Ap). My own personal playlist mines 33 new music playlists and can be seen [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
+If you don't want to run any code and just want the music, you have two options:
+1. a demo playlist created using the default settings [here](https://open.spotify.com/playlist/0kqXhlpDiRbab64ip8g8Ap).
+2. my personal playlist that mines 33 new music playlists [here](https://open.spotify.com/playlist/3XidTKBIpsGymPCjlN7kZH).
 
 
 ### Who this is for
@@ -42,7 +38,7 @@ If you don't want to run any code and just want the music, a demo playlist creat
 
 4. **Choose playlists to aggregate** — [playlist_ids_full.csv](playlist_ids_full.csv) has a list of Spotify playlists you can aggregate. Info on each playlist is available in the name and description. If you think you want to include a playlist, just put 'yes' against it in the INCLUDE column. And if you don't want to include it, just leave the cell under INCLUDE blank. 6 playlists (Pitchfork, Rolling Stone, KCRW from the US and Line of Best Fit, NME, BBC Radio 6 from the UK) have been pre-selected to give you some default choices to start with, but they can be un-selected.
 
-5. **Change the country code** — You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (You can find the code from this [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b).) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that *is* licensed, so you'll have fewer tracks missing.  
+5. **Change the country code** — You'll need to change one line in the script `spotify_market = 'IN'` and put in the two-letter ISO code for your country. (You can find the code from this [list](https://gist.github.com/frankkienl/a594807bf0dcd23fdb1b).) It's important for something called track [relinking](https://developer.spotify.com/documentation/general/guides/track-relinking-guide/). Essentially, if a track on a playlist isn't licensed for your country, Spotify will find a version of the track that is licensed, so you'll have fewer tracks missing.  
 
 ### How it all works
 
@@ -62,7 +58,7 @@ A demo playlist created using the six default choices is [here](https://open.spo
 
 Note that your playlist is wiped clean and new tracks are added every time you run the script. So you'll need to get through the songs on the playlist before you run the script again. 
 
-You don't have to make it a chore though. Just have the playlist running while you're working/browsing/doomscrolling. 'Like' songs to add them to your liked songs list and skip liberally. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with the liked songs. (Put some on a workout playlist, others on an office playlist etc.)
+You don't have to make it a chore though. Just have the playlist running while you're working/browsing/doomscrolling. 'Like' songs to add them to your liked songs list, and skip liberally. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with the liked songs. (Put some on a workout playlist, others on an office playlist etc.)
 
 ### Running it in the cloud
 You only have to run the script once a week, so hosting it locally should't be an issue. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). But you can run it from a virtual machine (VM) in the cloud too. I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
