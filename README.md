@@ -69,7 +69,7 @@ You only have to run the script once a week, so hosting it locally should't be a
 
 ### Things to keep in mind
 
-* **Don't change the playlist name inside Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line:  
+* **Don't change the playlist name inside Spotify** — The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line:  
 `playlist_title_to_update = 'New Music for ' + current_user_id`.
 
 ### Further customization
