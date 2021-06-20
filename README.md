@@ -26,7 +26,7 @@ If you don't want to run any code and just want the music, a demo playlist creat
 ### What's there in the repo
 
 * [update_script.py](update_script.py) does most of the work — aggregating, removing duplicates etc.
-* [playlist_ids_full.csv](playlist_ids_full.csv) which has a list of Spotify playlists you can aggregate 
+* [playlist_ids_full.csv](playlist_ids_full.csv), which has a list of Spotify playlists you can aggregate 
 * [master_list_repo.csv](master_list_repo.csv), which is a list of songs released recently. When the script comes across a song, it will check the song against this csv to see if it's been on playlists earlier. The csv's populated with songs from playlists I've been aggregating.
 * [cred_spotify.py](cred_spotify.py) where you'll place your Spotify developer credentials 
 * [config_email.ini](config_email.ini) where you'll place your email credentials, if you want be notified every week when the consolidated playlist is created
@@ -48,7 +48,7 @@ If you don't want to run any code and just want the music, a demo playlist creat
 
 The script looks at [playlist_ids_full.csv](playlist_ids_full.csv) and sees what new music playlists you've chosen. Then it goes to each playlist and collects the songs on it. If a song is already in [master_list_repo.csv](master_list_repo.csv), it skips the song. But if the song's not there, the script adds it to a new playlist in your Spotify library. It also makes note of the song, so that if another playlist has it that week, the song doesn't get added to your personal playlist twice. The script also adds the song to [master_list_repo.csv](master_list_repo.csv), so that it gets skipped in next week's run. 
 
-There's more details in [update_script.py](update_script.py), it's heavily commented, so you'll know what's going on at each step.
+There's more details in [update_script.py](update_script.py). It's heavily commented, so you'll know what's going on at each step.
 
 ### How to use the script
 
@@ -62,14 +62,15 @@ A demo playlist created using the six default choices is [here](https://open.spo
 
 Note that your playlist is wiped clean and new tracks are added every time you run the script. So you'll need to get through the songs on the playlist before you run the script again. 
 
-You don't have to make it a chore though. Just have the playlist running while you're working/browsing/doomscrolling. 'Like' songs to add them to your liked songs list and skip liberally. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with your liked songs. (Put some on a workout playlist, others on an office playlist etc.)
+You don't have to make it a chore though. Just have the playlist running while you're working/browsing/doomscrolling. 'Like' songs to add them to your liked songs list and skip liberally. There's [no limit](https://www.theverge.com/2020/5/26/21270409/spotify-song-library-limit-removed-music-downloads-playlists-feature) in Spotify to how many songs you can 'like'. You can decide later what you want to do with the liked songs. (Put some on a workout playlist, others on an office playlist etc.)
 
 ### Running it in the cloud
 You only have to run the script once a week, so hosting it locally should't be an issue. (Schedule it to run every week using [cron](https://help.ubuntu.com/community/CronHowto)). But you can run it from a virtual machine (VM) in the cloud too. I'm using a VM with Oracle Cloud's [free tier](https://www.oracle.com/in/cloud/free/), but you can use your cloud provider of choice like Google Cloud or Amazon Web Services. [This](https://docs.oracle.com/en/learn/cloud_free_tier/index.html#introduction) and [this](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm) will help you get started with Oracle Cloud's free tier.
 
 ### Things to keep in mind
 
-* **Don't change the playlist name from Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line `playlist_title_to_update = 'New Music for ' + current_user_id`.
+* **Don't change the playlist name from Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line.  
+`playlist_title_to_update = 'New Music for ' + current_user_id`.
 
 ### Further customization
 
