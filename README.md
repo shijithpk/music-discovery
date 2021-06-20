@@ -69,7 +69,7 @@ You only have to run the script once a week, so hosting it locally should't be a
 
 ### Things to keep in mind
 
-* **Don't change the playlist name from Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line:  
+* **Don't change the playlist name from inside Spotify**. The script uses a fixed pattern for the name ie. 'New Music for \< your Spotify user id \>'. So next time the script runs, if it can't find a playlist with that exact name, it'll create a new one. You can change the name though by going into the script and modifying the line:  
 `playlist_title_to_update = 'New Music for ' + current_user_id`.
 
 ### Further customization
@@ -89,9 +89,9 @@ You only have to run the script once a week, so hosting it locally should't be a
 
 * **Retain tracks from previous weeks** — Right now the updates are done in such a way that tracks added last week are removed, and fresh tracks come in its place. But you can also modify the script to ensure the previous week's playlist isn't wiped clean, and new tracks from this week just get added to the top of the playlist. [further_ideas_1.py](further_ideas_1.py) will show you how to implement this.  
 
-* **Deal with the 10,000 song-limit** — If you decide to retain songs from previous weeks, one issue that you will bump up against is the limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000. Instead of deleting older tracks, another thing you could do is create a new playlist and add songs to that. [further_ideas_2.py](further_ideas_2.py) will show you how to automate the process. 
+* **Deal with the 10,000 song-limit** — If you decide to retain songs from previous weeks, one issue that you will bump up against is the limit of 10,000 songs for a Spotify playlist. How [further_ideas_1.py](further_ideas_1.py) gets over it is by deleting the oldest songs as soon as the song-count nears 10,000. Instead of deleting older tracks, another thing you could do is create a new playlist and add songs to that. [further_ideas_2.py](further_ideas_2.py) will show you how to automate this process. 
 
-* **Find out which playlists are inactive** — Some of the playlists you're aggregating, they might stop getting updates after a while, but you can use email to monitor how active different playlists are. [further_ideas_2.py](further_ideas_2.py) implements this by mailing me with info about when each playlist was last updated (screenshot below).
+* **Find out which playlists are inactive** — Some of the playlists you're aggregating, they might stop getting updates after a while, but you can use email to monitor how active different playlists are. [further_ideas_2.py](further_ideas_2.py) implements this by mailing me with info on when each playlist was last updated (screenshot below).
 
 ![Screenshot of email](https://i.imgur.com/ttPLsUP.png)
 
