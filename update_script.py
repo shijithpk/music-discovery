@@ -253,4 +253,3 @@ master_list_online_df.to_csv('master_list_online.csv', index=False, encoding='ut
 # s.login(sender_email, sender_password)
 # s.sendmail(sender_email, receiver_email, message.as_string()) 
 # s.quit()
-
