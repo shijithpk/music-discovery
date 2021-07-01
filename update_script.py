@@ -2,7 +2,7 @@
 
 from datetime import datetime
 from datetime import timedelta
-from fuzzywuzzy import fuzz
+from fuzzywuzzy import fuzz, process
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import cred_spotify
@@ -145,10 +145,14 @@ for index,row in playlist_ids_df.iterrows():
                                 # also by checking whether another playlist this week has the same track id
                                 # also by doing fuzzy matches. If it's a score less than 100, we can add it
                                     # Am ok with duplicates being added to the list, not ok with missing out on tracks
+                        
+                        chance_of_match_in_this_weeks_other_tracks = process.extractOne(combined_string, add_online_df['combined_string'],scorer=fuzz.token_set_ratio)[1]
+                        chance_of_match_in_existing_playlist_tracks = process.extractOne(combined_string, master_list_online_df['combined_string'],scorer=fuzz.token_set_ratio)[1]
+
                         if ((track_id not in add_online_df['track_id'].tolist()) and \
                             (track_id not in master_list_online_df['track_id'].tolist()) and \
-                            (fuzz.partial_token_set_ratio(add_online_df['combined_string'], combined_string) < 100) and \
-                            (fuzz.partial_token_set_ratio(master_list_online_df['combined_string'], combined_string) < 100)):
+                            (chance_of_match_in_this_weeks_other_tracks < 100) and \
+                            (chance_of_match_in_existing_playlist_tracks < 100)):
                                 #if there is no track with a different id that is a fuzzy match of the track we are looking at, we can add it
 
                                 #get acoustic features for each track
