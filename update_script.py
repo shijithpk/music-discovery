@@ -146,7 +146,10 @@ for index,row in playlist_ids_df.iterrows():
                                 # also by doing fuzzy matches. If it's a score less than 100, we can add it
                                     # Am ok with duplicates being added to the list, not ok with missing out on tracks
                         
-                        chance_of_match_in_this_weeks_other_tracks = process.extractOne(combined_string, add_online_df['combined_string'],scorer=fuzz.token_set_ratio)[1]
+                        try:
+                            chance_of_match_in_this_weeks_other_tracks = process.extractOne(combined_string, add_online_df['combined_string'],scorer=fuzz.token_set_ratio)[1]
+                        except:
+                            chance_of_match_in_this_weeks_other_tracks = 0
                         chance_of_match_in_existing_playlist_tracks = process.extractOne(combined_string, master_list_online_df['combined_string'],scorer=fuzz.token_set_ratio)[1]
 
                         if ((track_id not in add_online_df['track_id'].tolist()) and \
