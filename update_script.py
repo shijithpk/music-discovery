@@ -59,10 +59,6 @@ else:
                                 description='Songs compiled from new music lists of various publications, websites and radio stations')
     playlist_id_to_update = new_playlist_object["id"]
 
-
-# wiping the slate clean, removing all tracks present in the consolidated playlist if any
-sp.playlist_replace_items(playlist_id_to_update, [])
-
 now = datetime.now()
 current_year = str(now.year)
 
@@ -204,6 +200,9 @@ for index,row in playlist_ids_df.iterrows():
             #So i get to listen to the more acoustic music first
     #You can sort by any other property you want like instrumentalness, danceability etc.
 add_online_df.sort_values(by='acousticness', ascending=False, inplace=True)
+
+# wiping the slate clean, removing all tracks present in the consolidated playlist if any
+sp.playlist_replace_items(playlist_id_to_update, [])
 
 #add tracks from add_online_df to the consolidated new music playlist
 # we can only add 100 at a time    
