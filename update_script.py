@@ -111,6 +111,11 @@ for index,row in playlist_ids_df.iterrows():
             #whether it was released this year, whether it's been added to the playlist in the past etc.
         for item in items:
             if item['track']:
+                episode_boolean = item['track']['episode']
+                # it's like this in api output, "episode": false
+                #if boolean is true, skip this item in loop and move to next item
+                if episode_boolean:
+                    continue
                 track_name = item['track']['name']
                 track_id = item['track']['id']
                 artist_name_list = [artist['name'] for artist in item['track']['artists']]
