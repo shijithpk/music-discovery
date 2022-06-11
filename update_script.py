@@ -2,7 +2,7 @@
 
 from datetime import datetime
 from datetime import timedelta
-from fuzzywuzzy import fuzz,process
+from thefuzz import fuzz,process
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import cred_spotify
