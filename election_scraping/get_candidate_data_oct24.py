@@ -56,6 +56,7 @@ def createPartySname(partyFname):
 		return ''.join([char for char in partyFname if char.isupper() or char in "()"])
 
 url_start = 'https://results.eci.gov.in/AcResultGenOct2024/candidateswise-'
+# CHANGE URL ON SATURDAY
 
 
 async def get_page_content(page, url, retries=3, delay=5):
