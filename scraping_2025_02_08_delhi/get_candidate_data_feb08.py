@@ -15,11 +15,12 @@ csv_path = 'data/mla_basic_data_post_detailed.csv'
 
 ist = pytz.timezone('Asia/Kolkata')
 path_timestamp = datetime.now(ist).strftime("%I_%M_%p")
-dump_csv_path = f'data/all_candidates_data_{path_timestamp}.csv'
+dump_csv_path = f'data/seat_data_{path_timestamp}.csv'
 
 
 # CHANGE URL ON SATURDAY
-url_start = 'https://results.eci.gov.in/ResultAcGenNov2024/candidateswise-'
+# url_start = 'https://results.eci.gov.in/ResultAcGenNov2024/candidateswise-'
+url_start = 'https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-'
 
 timestamp = datetime.now().strftime('%Y_%m_%d_%H_%M')
 logging.basicConfig(filename=f'logs/{timestamp}_app.log', level=logging.INFO, format='%(message)s')
@@ -228,3 +229,10 @@ async def run_all(csv_path):
 		await browser.close()
 
 asyncio.run(run_all(csv_path))
+
+
+# /home/ubuntu/work/spotify_management_redux/scraping_2025_02_08_delhi/get_candidate_data_feb08.py
+
+# 5,25,45 * * * * cd /home/ubuntu/work/data_website_v2/static/assets_v2/polls-2025 && /usr/bin/python3 ./update_csv_feb8.py
+
+# cd /home/ubuntu/work/spotify_management_redux/scraping_2025_02_08_delhi && /usr/bin/python3 ./get_candidate_data_feb08.py

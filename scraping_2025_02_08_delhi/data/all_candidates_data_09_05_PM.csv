@@ -1,0 +1,770 @@
+seat_id,seat_name,url_for_checking,cand_name,cand_party,cand_party_short,cand_votes,total_votes,cand_vote_share_percent,cand_position
+1,Narela,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U051.htm,Raj Karan Khatri,Bharatiya Janata Party,BJP,87215,174746,49.9,1
+1,Narela,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U051.htm,Sharad Kumar,Aam Aadmi Party,AAP,78619,174746,45.0,2
+1,Narela,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U051.htm,Aruna,Indian National Congress,CONG,6782,174746,3.9,3
+1,Narela,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U051.htm,Nota,None of the Above,NA,981,174746,0.6,4
+1,Narela,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U051.htm,Anil Kumar Singh,Communist Party of India  (Marxist-Leninist)  (Liberation),CPI(ML)(L),328,174746,0.2,5
+1,Narela,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U051.htm,Vikas Bhardwaj,Independent,Ind.,301,174746,0.2,6
+1,Narela,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U051.htm,Md Khalid,Aazad Samaj Party (Kanshi Ram),ASP(KR),278,174746,0.2,7
+1,Narela,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U051.htm,Budiya,Independent,Ind.,242,174746,0.1,8
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Sanjeev Jha,Aam Aadmi Party,AAP,121181,254737,47.6,1
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Shailendra Kumar,Janata Dal  (United),JD(U),100580,254737,39.5,2
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Mangesh Tyagi,Indian National Congress,CONG,19920,254737,7.8,3
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Ratan Tyagi,Nationalist Congress Party,NCP,3852,254737,1.5,4
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Nota,None of the Above,NA,2548,254737,1.0,5
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Ganga Ram,Bahujan Samaj Party,BSP,2214,254737,0.9,6
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Anil Kapoor,Janhit Dal,JD,869,254737,0.3,7
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Sonu Kaushik,Aapki Apni Party (Peoples),AAP(P),739,254737,0.3,8
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Vijay Kumar Jha,Rachnatmak Jan Morcha,RJM,589,254737,0.2,9
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Sunil Kumar Vyathit,Aam Aadmi Sangharsh Party (S),AASP(S),569,254737,0.2,10
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Abhishek Kumar Singh (Master Ji),Rashtriya Janshakti Party (Secular),RJP(S),531,254737,0.2,11
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Gulab Singhal,Bhim Sena,BS,318,254737,0.1,12
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Pramod,Sarvodaya Prabhat Party,SPP,315,254737,0.1,13
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Mukesh Prasad,Bhartiya Janta Dal (Integrated),BJD(I),288,254737,0.1,14
+2,Burari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U052.htm,Dhurva Kumar,Right to Recall Party,RRP,224,254737,0.1,15
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Surya Prakash Khatri,Bharatiya Janata Party,BJP,55941,121541,46.0,1
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Surinder Pal Singh (Bittoo),Aam Aadmi Party,AAP,54773,121541,45.1,2
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Lokendra Kalyan Singh,Indian National Congress,CONG,8361,121541,6.9,3
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Surender Pal,Bahujan Samaj Party,BSP,985,121541,0.8,4
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Nota,None of the Above,NA,663,121541,0.5,5
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Tarun Kumar,Republican Sena,RS,167,121541,0.1,6
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Deepak Chawla,Republican Party of India (Athawale),RPI(A),113,121541,0.1,7
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Rajkumar Bharti,Peoples Party of India (Democratic),PPI(D),112,121541,0.1,8
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Ram Raj Singh,Rashtriya Janshakti Party (Secular),RJP(S),109,121541,0.1,9
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Sangh Priya Siddhartha,Bhim Sena,BS,107,121541,0.1,10
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Rakesh Ranjan Shrivastav,Janhit Dal,JD,91,121541,0.1,11
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Wasim Akram,Indian National Socialistic Action Forces,INSAF,69,121541,0.1,12
+3,Timarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U053.htm,Bijender Kumar,Jan Samuh Party,JSP,50,121541,0.0,13
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Raj Kumar Bhatia,Bharatiya Janata Party,BJP,52510,100460,52.3,1
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Mukesh Kumar Goel,Aam Aadmi Party,AAP,41028,100460,40.8,2
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Shivank Singal,Indian National Congress,CONG,5460,100460,5.4,3
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Nota,None of the Above,NA,377,100460,0.4,4
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Abdul Zabbar,Bahujan Samaj Party,BSP,344,100460,0.3,5
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Ram Niwas,Independent,Ind.,140,100460,0.1,6
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Sanjeev Kumar Rana,Communist Party of India,CPI,133,100460,0.1,7
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Vijay Kr. Aggarwal,Independent,Ind.,116,100460,0.1,8
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Neetu Singh,Independent,Ind.,111,100460,0.1,9
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Ayush Gupta,Independent,Ind.,64,100460,0.1,10
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Priya,"Aam Janmat Party,",AJP,56,100460,0.1,11
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Prem Chand,Rashtrawadi Janlok Party (Satya),RJP(S),41,100460,0.0,12
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Sanjay Yadav Advocate,Peoples Party of India (Democratic),PPI(D),35,100460,0.0,13
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Vishal Singh,National Youth Party,NYP,27,100460,0.0,14
+4,Adarsh Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U054.htm,Md: Rahmat Ali,Navarang Congress Party,NCP,18,100460,0.0,15
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Aahir Deepak Chaudharyy,Bharatiya Janata Party,BJP,61192,150866,40.6,1
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Ajesh Yadav,Aam Aadmi Party,AAP,46029,150866,30.5,2
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Devender Yadav,Indian National Congress,CONG,41071,150866,27.2,3
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Ravinder Kumar,Bahujan Samaj Party,BSP,725,150866,0.5,4
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Nota,None of the Above,NA,692,150866,0.5,5
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Parmod Kumar,Socialist Unity Centre Of India (COMMUNIST),SUCOI(COMMUNIST),250,150866,0.2,6
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Devender Kumar Yadav,Independent,Ind.,235,150866,0.2,7
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Jai Pal,Independent,Ind.,214,150866,0.1,8
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Arun Kumar,Independent,Ind.,158,150866,0.1,9
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Mulayam Singh,Nationalist Congress Party,NCP,92,150866,0.1,10
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Gopal Kumar Sinha,Bharatiya Sampuran Krantikari Party,BSKP,76,150866,0.1,11
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,Rajender,"Aam Janmat Party,",AJP,68,150866,0.0,12
+5,Badli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U055.htm,R. C. Sharma,Sarvodaya Prabhat Party,SPP,64,150866,0.0,13
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Kulwant Rana,Bharatiya Janata Party,BJP,104371,187164,55.8,1
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Mohinder Goyal,Aam Aadmi Party,AAP,74755,187164,39.9,2
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Sushant Mishra,Indian National Congress,CONG,5258,187164,2.8,3
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Nota,None of the Above,NA,1235,187164,0.7,4
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Neyaz Khan,Bahujan Samaj Party,BSP,619,187164,0.3,5
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Ashok Jain,Yuva Bharat Rashtraseva Party,YBRP,213,187164,0.1,6
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Vidya Patti,Independent,Ind.,167,187164,0.1,7
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Nishtha,Jai Maha Bharath Party,JMBP,155,187164,0.1,8
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Vishal Gupta,Independent,Ind.,117,187164,0.1,9
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Ayasha Khatoon,Peoples Party of India (Democratic),PPI(D),114,187164,0.1,10
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Ajay Kumar Singh,Independent,Ind.,104,187164,0.1,11
+6,Rithala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U056.htm,Jitander Singh,Asankhya Samaj Party,ASP,56,187164,0.0,12
+7,Bawana,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U057.htm,Ravinder Indraj Singh,Bharatiya Janata Party,BJP,119515,229856,52.0,1
+7,Bawana,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U057.htm,Jai Bhagwan Upkar,Aam Aadmi Party,AAP,88040,229856,38.3,2
+7,Bawana,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U057.htm,Surender Kumar,Indian National Congress,CONG,18713,229856,8.1,3
+7,Bawana,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U057.htm,Heera Lal,Bahujan Samaj Party,BSP,1557,229856,0.7,4
+7,Bawana,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U057.htm,Nota,None of the Above,NA,1346,229856,0.6,5
+7,Bawana,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U057.htm,Hari Kishan Mechanic,Independent,Ind.,279,229856,0.1,6
+7,Bawana,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U057.htm,Dheeraj Kumar,Peoples Party of India (Democratic),PPI(D),216,229856,0.1,7
+7,Bawana,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U057.htm,Babita,Asankhya Samaj Party,ASP,190,229856,0.1,8
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Gajender Drall,Bharatiya Janata Party,BJP,89839,190853,47.1,1
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Jasbir Karala,Aam Aadmi Party,AAP,79289,190853,41.5,2
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Dharampal Lakra,Indian National Congress,CONG,10290,190853,5.4,3
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Rambir Shokeen,Independent,Ind.,8655,190853,4.5,4
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Nota,None of the Above,NA,1088,190853,0.6,5
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Suman Lata Sehrawat,Bahujan Samaj Party,BSP,548,190853,0.3,6
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Sunita Shekhar Chawariya,Independent,Ind.,408,190853,0.2,7
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Sunil Kumar,National Loktantrik Party,NLP,166,190853,0.1,8
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Rajni,Independent,Ind.,129,190853,0.1,9
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Andeep Drall,Independent,Ind.,115,190853,0.1,10
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Mahavir,All India Forward Bloc,AIFB,94,190853,0.0,11
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Yogender Singh Alias Yogi Mathur,Akhil Bharatiya Socialist Party,ABSP,87,190853,0.0,12
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Santosh,Indian National Socialistic Action Forces,INSAF,84,190853,0.0,13
+8,Mundka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U058.htm,Sanjaya Kumar Yadav,Right to Recall Party,RRP,61,190853,0.0,14
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Anil Jha,Aam Aadmi Party,AAP,105780,202413,52.3,1
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Bajrang Shukla,Bharatiya Janata Party,BJP,83909,202413,41.5,2
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Rajesh Kumar Gupta,Indian National Congress,CONG,6864,202413,3.4,3
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Jugbir Singh,Bahujan Samaj Party,BSP,2128,202413,1.1,4
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Nota,None of the Above,NA,1366,202413,0.7,5
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Malik Neyaz Ahmad,Aazad Samaj Party (Kanshi Ram),ASP(KR),885,202413,0.4,6
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Prakash Srivastav,Independent,Ind.,588,202413,0.3,7
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Rakesh,Independent,Ind.,473,202413,0.2,8
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Sudesh Sharma,Rashtriya Manav Party,RMP,212,202413,0.1,9
+9,Kirari,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U059.htm,Afsana Sarwar,Peace Party,PP,208,202413,0.1,10
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Mukesh Kumar Ahlawat,Aam Aadmi Party,AAP,58767,112825,52.1,1
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Karam Singh Karma,Bharatiya Janata Party,BJP,41641,112825,36.9,2
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Jai Kishan,Indian National Congress,CONG,8688,112825,7.7,3
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Kulwant Rana,Bahujan Samaj Party,BSP,1885,112825,1.7,4
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Jitender,Jai Maha Bharath Party,JMBP,555,112825,0.5,5
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Nota,None of the Above,NA,494,112825,0.4,6
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Deepak Kumar,Independent,Ind.,177,112825,0.2,7
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Ramswaroop Samria,Independent,Ind.,152,112825,0.1,8
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Karan Singh,Swaraj Bhartiya Nyay Party,SBNP,151,112825,0.1,9
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Babu Lal,Bharatiya Sampuran Krantikari Party,BSKP,91,112825,0.1,10
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Preeti,Yuva Bharat Rashtraseva Party,YBRP,82,112825,0.1,11
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Sangeeta,Rashtriya Lok Sevak Party,RLSP,72,112825,0.1,12
+10,Sultanpur Majra,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0510.htm,Laxmi,Republican Party of India (Athawale),RPI(A),70,112825,0.1,13
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Manoj Kumar Shokeen,Bharatiya Janata Party,BJP,75272,159322,47.2,1
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Raghuvinder Shokeen,Aam Aadmi Party,AAP,49021,159322,30.8,2
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Rohit Choudhary,Indian National Congress,CONG,32028,159322,20.1,3
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Nota,None of the Above,NA,924,159322,0.6,4
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Mukesh Kumar,Bahujan Samaj Party,BSP,795,159322,0.5,5
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Yatender Sharma,Azad Adhikar Sena,AAS,390,159322,0.2,6
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Dilip Kumar Sharma,Independent,Ind.,373,159322,0.2,7
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Ram Sajivan,Peoples Party of India (Democratic),PPI(D),205,159322,0.1,8
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Kanchan Sharma,Rashtriya Manav Party,RMP,162,159322,0.1,9
+11,Nangloi Jat,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0511.htm,Mahender Singh Rathor,Rashtriya Lok Sevak Party,RLSP,152,159322,0.1,10
+12,Mangol Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0512.htm,Raj Kumar Chauhan,Bharatiya Janata Party,BJP,62007,123450,50.2,1
+12,Mangol Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0512.htm,Dharam Rakshak Alias Rakesh Jatav,Aam Aadmi Party,AAP,55752,123450,45.2,2
+12,Mangol Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0512.htm,Hanuman Sahay Alias Hanuman Chauhan,Indian National Congress,CONG,3784,123450,3.1,3
+12,Mangol Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0512.htm,Nota,None of the Above,NA,762,123450,0.6,4
+12,Mangol Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0512.htm,Mukesh Kumar,Bahujan Samaj Party,BSP,724,123450,0.6,5
+12,Mangol Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0512.htm,Jai Bhagwan,Independent,Ind.,250,123450,0.2,6
+12,Mangol Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0512.htm,Khilkhilakar,Bahujan Shoshit Samaj Sangharsh Samta Party,BSSSSP,171,123450,0.1,7
+13,Rohini,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0513.htm,Vijender Gupta,Bharatiya Janata Party,BJP,70365,108233,65.0,1
+13,Rohini,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0513.htm,Pardeep Mittal,Aam Aadmi Party,AAP,32549,108233,30.1,2
+13,Rohini,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0513.htm,Sumesh Gupta,Indian National Congress,CONG,3765,108233,3.5,3
+13,Rohini,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0513.htm,Nota,None of the Above,NA,1031,108233,1.0,4
+13,Rohini,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0513.htm,Harshad Chadha,Bahujan Samaj Party,BSP,197,108233,0.2,5
+13,Rohini,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0513.htm,Abhishek,Jai Maha Bharath Party,JMBP,118,108233,0.1,6
+13,Rohini,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0513.htm,Amit Saini,Jan Samuh Party,JSP,92,108233,0.1,7
+13,Rohini,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0513.htm,Rajbir,Independent,Ind.,62,108233,0.1,8
+13,Rohini,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0513.htm,Narender Singh Panwar,Independent,Ind.,54,108233,0.0,9
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Rekha Gupta,Bharatiya Janata Party,BJP,68200,113764,59.9,1
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Bandana Kumari,Aam Aadmi Party,AAP,38605,113764,33.9,2
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Parveen Kumar Jain,Indian National Congress,CONG,4892,113764,4.3,3
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Nota,None of the Above,NA,770,113764,0.7,4
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Shyam Kumar,Bahujan Samaj Party,BSP,411,113764,0.4,5
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Saurabh Gupta,Independent,Ind.,358,113764,0.3,6
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Rina Devi,Independent,Ind.,252,113764,0.2,7
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Rajesh Kumar,Independent,Ind.,143,113764,0.1,8
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Mohd. Usman,Independent,Ind.,98,113764,0.1,9
+14,Shalimar Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0514.htm,Ranjeet Verma,New India United Party,NIUP,35,113764,0.0,10
+15,Shakur Basti,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0515.htm,Karnail Singh,Bharatiya Janata Party,BJP,56869,99652,57.1,1
+15,Shakur Basti,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0515.htm,Satyendar Jain,Aam Aadmi Party,AAP,35871,99652,36.0,2
+15,Shakur Basti,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0515.htm,Satish Kumar Luthra,Indian National Congress,CONG,5784,99652,5.8,3
+15,Shakur Basti,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0515.htm,Nota,None of the Above,NA,673,99652,0.7,4
+15,Shakur Basti,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0515.htm,Vijay Kumar,Bahujan Samaj Party,BSP,164,99652,0.2,5
+15,Shakur Basti,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0515.htm,Tamana,Yuva Bharat Rashtraseva Party,YBRP,115,99652,0.1,6
+15,Shakur Basti,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0515.htm,Rajesh Gupta,Bharat Lok Sewak Party,BLSP,100,99652,0.1,7
+15,Shakur Basti,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0515.htm,Jugal Chawla,Independent,Ind.,76,99652,0.1,8
+16,Tri Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0516.htm,Tilak Ram Gupta,Bharatiya Janata Party,BJP,59073,110697,53.4,1
+16,Tri Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0516.htm,Preeti Jitender Tomar,Aam Aadmi Party,AAP,43177,110697,39.0,2
+16,Tri Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0516.htm,Satender Sharma,Indian National Congress,CONG,6897,110697,6.2,3
+16,Tri Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0516.htm,Nota,None of the Above,NA,688,110697,0.6,4
+16,Tri Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0516.htm,Pawan Garg,Bahujan Samaj Party,BSP,566,110697,0.5,5
+16,Tri Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0516.htm,Subhash,Asankhya Samaj Party,ASP,181,110697,0.2,6
+16,Tri Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0516.htm,Surendra Singh Basoya,Peoples Party of India (Democratic),PPI(D),115,110697,0.1,7
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Poonam Sharma,Bharatiya Janata Party,BJP,54721,106788,51.2,1
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Rajesh Gupta,Aam Aadmi Party,AAP,43296,106788,40.5,2
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Ragini Nayak,Indian National Congress,CONG,6348,106788,5.9,3
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Hira Lal,Bahujan Samaj Party,BSP,1047,106788,1.0,4
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Nota,None of the Above,NA,652,106788,0.6,5
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Aakash Goel,Independent,Ind.,234,106788,0.2,6
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Devender Kumar,Communist Party of India,CPI,190,106788,0.2,7
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Mukesh Jain,Independent,Ind.,173,106788,0.2,8
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Mahesh Bansal,Right to Recall Party,RRP,64,106788,0.1,9
+17,Wazirpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0517.htm,Sheela Devi,Garib Ekta Party,GEP,63,106788,0.1,10
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Ashok Goel,Bharatiya Janata Party,BJP,52108,96318,54.1,1
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Akhilesh Pati Tripathi,Aam Aadmi Party,AAP,38693,96318,40.2,2
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Kanwar Karan Singh,Indian National Congress,CONG,3908,96318,4.1,3
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Nota,None of the Above,NA,685,96318,0.7,4
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Chunni Lal,Bahujan Samaj Party,BSP,372,96318,0.4,5
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Roman Rashid,Independent,Ind.,224,96318,0.2,6
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Chander Pal,Independent,Ind.,119,96318,0.1,7
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Vivek Giri,Aapki Apni Party (Peoples),AAP(P),118,96318,0.1,8
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Pankaj Kumar,Rashtravadi Janata Party,RJP,58,96318,0.1,9
+18,Model Town,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0518.htm,Awdhesh Kumar Jha,Right to Recall Party,RRP,33,96318,0.0,10
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Som Dutt,Aam Aadmi Party,AAP,56177,118400,47.4,1
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Manoj Kumar Jindal,Bharatiya Janata Party,BJP,49870,118400,42.1,2
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Anil Bhardwaj,Indian National Congress,CONG,10057,118400,8.5,3
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Shail Kumari,Bahujan Samaj Party,BSP,709,118400,0.6,4
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Nota,None of the Above,NA,586,118400,0.5,5
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Meenakshi Kumari,Bharatiya Liberal Party,BLP,247,118400,0.2,6
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Madhu Bala,Jai Maha Bharath Party,JMBP,213,118400,0.2,7
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Asha Rani,Socialist Unity Centre Of India (COMMUNIST),SUCOI(COMMUNIST),184,118400,0.2,8
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Anita Bansal,Asankhya Samaj Party,ASP,123,118400,0.1,9
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Ca Soharsh Gulgulia Jain,Jantantrik Samta Party,JSP,100,118400,0.1,10
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Laxmi Thakur Singhal,Abhinav Bharat Party,ABP,84,118400,0.1,11
+19,Sadar Bazar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0519.htm,Umesh Rathor,Atulya Bharat Party,ABP,50,118400,0.0,12
+20,Chandni Chowk,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0520.htm,Punardeep Singh Sawhney (Sabby),Aam Aadmi Party,AAP,38993,71173,54.8,1
+20,Chandni Chowk,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0520.htm,Satish Jain,Bharatiya Janata Party,BJP,22421,71173,31.5,2
+20,Chandni Chowk,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0520.htm,Mudit Agarwal,Indian National Congress,CONG,9065,71173,12.7,3
+20,Chandni Chowk,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0520.htm,Nota,None of the Above,NA,253,71173,0.4,4
+20,Chandni Chowk,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0520.htm,Kali Charan,Bahujan Samaj Party,BSP,246,71173,0.3,5
+20,Chandni Chowk,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0520.htm,Khalid Ur Rehman,Nationalist Congress Party,NCP,81,71173,0.1,6
+20,Chandni Chowk,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0520.htm,Rahul Tiwari,Right to Recall Party,RRP,69,71173,0.1,7
+20,Chandni Chowk,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0520.htm,Mohammad Mursaleen,Indian National Socialistic Action Forces,INSAF,45,71173,0.1,8
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Aaley Mohammed Iqbal,Aam Aadmi Party,AAP,58120,84475,68.8,1
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Deepti Indora,Bharatiya Janata Party,BJP,15396,84475,18.2,2
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Asim Ahmed Khan,Indian National Congress,CONG,10295,84475,12.2,3
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Nota,None of the Above,NA,217,84475,0.3,4
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Tej Ram,Bahujan Samaj Party,BSP,130,84475,0.2,5
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Amar Nath,Independent,Ind.,93,84475,0.1,6
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Mohammad Ahmed Saifi,Independent,Ind.,60,84475,0.1,7
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Mohd Javed,Nationalist Congress Party,NCP,56,84475,0.1,8
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Bhagwan Dass,Independent,Ind.,35,84475,0.0,9
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Firdous Ahmad,Independent,Ind.,31,84475,0.0,10
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Moazam Khan,Independent,Ind.,31,84475,0.0,11
+21,Matia Mahal,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0521.htm,Zainuddin,Independent,Ind.,11,84475,0.0,12
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Imran Hussain,Aam Aadmi Party,AAP,57004,98277,58.0,1
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Kamal Bagri,Bharatiya Janata Party,BJP,27181,98277,27.7,2
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Haroon Yusuf,Indian National Congress,CONG,13059,98277,13.3,3
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Nota,None of the Above,NA,301,98277,0.3,4
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Abrar,Aam Aadmi Parivartan Party,AAPP,224,98277,0.2,5
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Sonu,Bahujan Samaj Party,BSP,190,98277,0.2,6
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Babu Lal,Independent,Ind.,131,98277,0.1,7
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Hansa,Independent,Ind.,77,98277,0.1,8
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Mohd. Shadab,Independent,Ind.,72,98277,0.1,9
+22,Ballimaran,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0522.htm,Md Haroon,Nationalist Congress Party,NCP,38,98277,0.0,10
+23,Karol Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0523.htm,Vishesh Ravi,Aam Aadmi Party,AAP,52297,102794,50.9,1
+23,Karol Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0523.htm,Dushyant Gautam,Bharatiya Janata Party,BJP,44867,102794,43.6,2
+23,Karol Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0523.htm,Rahul Kumar,Indian National Congress,CONG,4252,102794,4.1,3
+23,Karol Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0523.htm,Ranjeet,Bahujan Samaj Party,BSP,626,102794,0.6,4
+23,Karol Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0523.htm,Nota,None of the Above,NA,548,102794,0.5,5
+23,Karol Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0523.htm,Shiv Kumar,Rashtriya Aikta Manch Party,RAMP,116,102794,0.1,6
+23,Karol Bagh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0523.htm,Deepak Kumar,Independent,Ind.,88,102794,0.1,7
+24,Patel Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0524.htm,Pravesh Ratn,Aam Aadmi Party,AAP,57512,117370,49.0,1
+24,Patel Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0524.htm,Raaj Kumar Anand,Bharatiya Janata Party,BJP,53463,117370,45.6,2
+24,Patel Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0524.htm,Krishna Tirath,Indian National Congress,CONG,4654,117370,4.0,3
+24,Patel Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0524.htm,Nota,None of the Above,NA,772,117370,0.7,4
+24,Patel Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0524.htm,Ram Avtar,Bahujan Samaj Party,BSP,714,117370,0.6,5
+24,Patel Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0524.htm,Ashok Kumar,Aazad Samaj Party (Kanshi Ram),ASP(KR),255,117370,0.2,6
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Harish Khurana,Bharatiya Janata Party,BJP,57565,109361,52.6,1
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Shivcharan Goel,Aam Aadmi Party,AAP,45908,109361,42.0,2
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Rajender Singh,Indian National Congress,CONG,3334,109361,3.0,3
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Avinash Gupta,Bahujan Samaj Party,BSP,851,109361,0.8,4
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Nota,None of the Above,NA,689,109361,0.6,5
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Sadre Alam,Independent,Ind.,416,109361,0.4,6
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Gauri Shankar,Independent,Ind.,170,109361,0.2,7
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Gourav Bothra,Right to Recall Party,RRP,124,109361,0.1,8
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Harish,Independent,Ind.,76,109361,0.1,9
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Vishal Sahni,Voters Party  International,VPI,70,109361,0.1,10
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Vijay Kumar Sharma,Rashtriya Manav Party,RMP,63,109361,0.1,11
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Sanaullah,Nationalist Congress Party,NCP,60,109361,0.1,12
+25,Moti Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0525.htm,Mahesh Dubey,Bharatiya Liberal Party,BLP,35,109361,0.0,13
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,Kailash Gangwal,Bharatiya Janata Party,BJP,52019,112890,46.1,1
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,Rakhi Birla,Aam Aadmi Party,AAP,41120,112890,36.4,2
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,J. P. Panwar,Indian National Congress,CONG,17958,112890,15.9,3
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,Nota,None of the Above,NA,778,112890,0.7,4
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,Roop Singh Ahirwar,Bahujan Samaj Party,BSP,321,112890,0.3,5
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,Dharamveer,Independent,Ind.,206,112890,0.2,6
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,Randhir Singh Tandi,Jai Maha Bharath Party,JMBP,204,112890,0.2,7
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,Ravi,Independent,Ind.,113,112890,0.1,8
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,Rohit Kashyap,Hamara Sahi Vikalp Party,HSVP,105,112890,0.1,9
+26,Madipur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0526.htm,Randhir Kumar,Asankhya Samaj Party,ASP,66,112890,0.1,10
+27,Rajouri Garden,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0527.htm,Manjinder Singh Sirsa,Bharatiya Janata Party,BJP,64132,114806,55.9,1
+27,Rajouri Garden,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0527.htm,A Dhanwati Chandela A,Aam Aadmi Party,AAP,45942,114806,40.0,2
+27,Rajouri Garden,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0527.htm,Dharam Pal Chandela,Indian National Congress,CONG,3198,114806,2.8,3
+27,Rajouri Garden,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0527.htm,Nota,None of the Above,NA,783,114806,0.7,4
+27,Rajouri Garden,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0527.htm,Shashi Pabha,Bahujan Samaj Party,BSP,288,114806,0.3,5
+27,Rajouri Garden,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0527.htm,Karan Talwar,Aam Aadmi Parivartan Party,AAPP,225,114806,0.2,6
+27,Rajouri Garden,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0527.htm,Jaya Raman,Sanjhi Virasat Party,SVP,89,114806,0.1,7
+27,Rajouri Garden,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0527.htm,Vishal Sangwan,Right to Recall Party,RRP,84,114806,0.1,8
+27,Rajouri Garden,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0527.htm,Kamla Devi,Aapki Apni Party (Peoples),AAP(P),65,114806,0.1,9
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Shyam Sharma,Bharatiya Janata Party,BJP,50179,103040,48.7,1
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Surinder Kumar Setia,Aam Aadmi Party,AAP,43547,103040,42.3,2
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Prem Ballabh,Indian National Congress,CONG,4252,103040,4.1,3
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Raj Kumari Dhillon,Independent,Ind.,3398,103040,3.3,4
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Nota,None of the Above,NA,713,103040,0.7,5
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Bindu Kumar,Bahujan Samaj Party,BSP,569,103040,0.6,6
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Mayank Mehta,Independent,Ind.,98,103040,0.1,7
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Sabir Khan,Independent,Ind.,91,103040,0.1,8
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Mohan Lal Bhardwaj,Bharatheeya Jawan Kisan Party,BJKP,83,103040,0.1,9
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Preetam Chand,Rashtriya Janshakti Party (Secular),RJP(S),81,103040,0.1,10
+28,Hari Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0528.htm,Ashok Kumar,Independent,Ind.,29,103040,0.0,11
+29,Tilak Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0529.htm,Jarnail Singh,Aam Aadmi Party,AAP,52134,96503,54.0,1
+29,Tilak Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0529.htm,Shveta Saini,Bharatiya Janata Party,BJP,40478,96503,41.9,2
+29,Tilak Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0529.htm,Parvinder Singh Alias P S Bawa,Indian National Congress,CONG,2747,96503,2.8,3
+29,Tilak Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0529.htm,Nota,None of the Above,NA,607,96503,0.6,4
+29,Tilak Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0529.htm,Ashok Kumar Gautam,Bahujan Samaj Party,BSP,301,96503,0.3,5
+29,Tilak Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0529.htm,Shweta,Independent,Ind.,145,96503,0.2,6
+29,Tilak Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0529.htm,Rajiv Kumar Babbar,Independent,Ind.,91,96503,0.1,7
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Ashish Sood,Bharatiya Janata Party,BJP,68986,124819,55.3,1
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Parveen Kumar,Aam Aadmi Party,AAP,50220,124819,40.2,2
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Harbani Kaur,Indian National Congress,CONG,3345,124819,2.7,3
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Nota,None of the Above,NA,691,124819,0.6,4
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Ravi Partap Rao,Bahujan Samaj Party,BSP,461,124819,0.4,5
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Praveen Kumar,Independent,Ind.,210,124819,0.2,6
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Praveen Kumar,Independent,Ind.,193,124819,0.2,7
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Altaf Ahmad,Independent,Ind.,183,124819,0.1,8
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Mohd Ojer,Azad Adhikar Sena,AAS,91,124819,0.1,9
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Md Naveen,Nationalist Congress Party,NCP,80,124819,0.1,10
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Chaman Lal Verma,Aam Janshakti Party,AJP,70,124819,0.1,11
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Dharam Veer,Suheldev Bharatiya Samaj Party,SBSP,61,124819,0.0,12
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Tarun Kumar Sharma,Independent,Ind.,60,124819,0.0,13
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Ashish Sood,Independent,Ind.,57,124819,0.0,14
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Kashmir Chand,Buland Bharat Party,BBP,48,124819,0.0,15
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Nizamuddin Khan,Adarshwaadi Congress Party,ACP,43,124819,0.0,16
+30,Janakpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0530.htm,Raj Kumar,All India National Raksha Sena,AINRS,20,124819,0.0,17
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Pankaj Kumar Singh,Bharatiya Janata Party,BJP,135564,273648,49.5,1
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Mahinder Yadav,Aam Aadmi Party,AAP,122688,273648,44.8,2
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Jitender Solanki,Indian National Congress,CONG,8465,273648,3.1,3
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Krishna Thakur,Bahujan Samaj Party,BSP,2642,273648,1.0,4
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Nota,None of the Above,NA,1460,273648,0.5,5
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Shejo Varghese,Communist Party of India,CPI,687,273648,0.3,6
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Umesh Chauhan,Aazad Samaj Party (Kanshi Ram),ASP(KR),443,273648,0.2,7
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Sharda Dixit,Socialist Unity Centre Of India (COMMUNIST),SUCOI(COMMUNIST),420,273648,0.2,8
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Hira Lal Sah,Independent,Ind.,391,273648,0.1,9
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Lala Ram,Bhartiya Panchsheel Party,BPP,297,273648,0.1,10
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Aman Saini,Independent,Ind.,286,273648,0.1,11
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Ranjeet Kumar,Rashtriya Manav Party,RMP,139,273648,0.1,12
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Prem Pal Singh,Rashtriya Janshakti Party (Secular),RJP(S),97,273648,0.0,13
+31,Vikaspuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0531.htm,Raju Richariya,Rashtriya Rashtrawadi Party,RRP,69,273648,0.0,14
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Pawan Sharma,Bharatiya Janata Party,BJP,103613,196093,52.8,1
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Posh Balyan,Aam Aadmi Party,AAP,73873,196093,37.7,2
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Mukesh Sharma,Indian National Congress,CONG,15565,196093,7.9,3
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Nota,None of the Above,NA,1217,196093,0.6,4
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Mani Ram,Bahujan Samaj Party,BSP,991,196093,0.5,5
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Dinesh Kumar Sah,Independent,Ind.,206,196093,0.1,6
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Journalist Ramesh Kumar Jain @ Nirbhik,Independent,Ind.,196,196093,0.1,7
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Dushyant Thakur,Yuva Bharat Rashtraseva Party,YBRP,185,196093,0.1,8
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Shyam Babu,Gareeb Aadmi Party,GAP,168,196093,0.1,9
+32,Uttam Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0532.htm,Rajiv Bhrigukumar,Rashtriya Lok Janshakti Party,RLJP,79,196093,0.0,10
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Parduymn Singh Rajput,Bharatiya Janata Party,BJP,69137,139504,49.6,1
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Vinay Mishra,Aam Aadmi Party,AAP,61308,139504,43.9,2
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Adarsh Shastri,Indian National Congress,CONG,6773,139504,4.9,3
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Nota,None of the Above,NA,729,139504,0.5,4
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Pardeep Kumar,Bahujan Samaj Party,BSP,545,139504,0.4,5
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Rameshwar Mahto,Rashtriya Manav Party,RMP,223,139504,0.2,6
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Ashok Jindal,Independent,Ind.,172,139504,0.1,7
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Aravendra Kumar,Suheldev Bharatiya Samaj Party,SBSP,131,139504,0.1,8
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Rajneesh Kumar Jha,National Youth Party,NYP,130,139504,0.1,9
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Gautam Singh Bihari,Independent,Ind.,104,139504,0.1,10
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Mehar Charan,Samaj Vikas Kranti Party,SVKP,76,139504,0.1,11
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Ravi Rathore,Republican Sena,RS,74,139504,0.1,12
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,G. Thulaseedharan,Peoples Green Party,PGP,58,139504,0.0,13
+33,Dwarka,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0533.htm,Yogesh Swami,Right to Recall Party,RRP,44,139504,0.0,14
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Sandeep Sehrawat,Bharatiya Janata Party,BJP,146295,278894,52.5,1
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Sumesh Shokeen,Aam Aadmi Party,AAP,117572,278894,42.2,2
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Raghvinder Singh,Indian National Congress,CONG,9685,278894,3.5,3
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Nota,None of the Above,NA,2018,278894,0.7,4
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Kamlesh Kumar,Bahujan Samaj Party,BSP,1134,278894,0.4,5
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Yogesh Kumar,Independent,Ind.,569,278894,0.2,6
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Punam Pandey,Independent,Ind.,501,278894,0.2,7
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Arvind Kumar Pandey,Rashtriya Janshakti Party (Secular),RJP(S),345,278894,0.1,8
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Rajni Sharma,Independent,Ind.,174,278894,0.1,9
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Prabhat Kumar,One Bharat Citizen Party,OBCP,162,278894,0.1,10
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Vinod Kumar Chauhan,Suheldev Bharatiya Samaj Party,SBSP,157,278894,0.1,11
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Yogesh Kumar Sharma,Right to Recall Party,RRP,121,278894,0.0,12
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Mohinder Singh,Rashtriya Rashtrawadi Party,RRP,88,278894,0.0,13
+34,Matiala,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0534.htm,Niraj Kumar,National Youth Party,NYP,73,278894,0.0,14
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Neelam Pahalwan,Bharatiya Janata Party,BJP,101708,180334,56.4,1
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Tarun Kumar,Aam Aadmi Party,AAP,72699,180334,40.3,2
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Sushma Devi Yadav,Indian National Congress,CONG,2902,180334,1.6,3
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Nota,None of the Above,NA,1346,180334,0.7,4
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Rohit,Bahujan Samaj Party,BSP,903,180334,0.5,5
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Mange Ram Sangwan,Independent,Ind.,225,180334,0.1,6
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Jalandhar Pandit,"Proutist Bloc, India",PBI,214,180334,0.1,7
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Manoj Kumar,Independent,Ind.,173,180334,0.1,8
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Bharat Singh,Peoples Party of India (Democratic),PPI(D),93,180334,0.1,9
+35,Najafgarh,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0535.htm,Rahul Kumar,Right to Recall Party,RRP,71,180334,0.0,10
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Kailash Gahlot,Bharatiya Janata Party,BJP,64951,130504,49.8,1
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Surender Bhardwaj,Aam Aadmi Party,AAP,53675,130504,41.1,2
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Col Devinder Kumar Sehrawat,Indian National Congress,CONG,9409,130504,7.2,3
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Nota,None of the Above,NA,756,130504,0.6,4
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Kamal Singh,Bahujan Samaj Party,BSP,702,130504,0.5,5
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Monis Kureshi,Independent,Ind.,225,130504,0.2,6
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Nishant Sehrawat,Independent,Ind.,193,130504,0.1,7
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Punam Pandey,Rashtravadi Loktantrik Party (India),RLP(I),153,130504,0.1,8
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Amrina,Independent,Ind.,113,130504,0.1,9
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Narender Singh,Republican Sena,RS,96,130504,0.1,10
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Som Dutt Sharma,Independent,Ind.,92,130504,0.1,11
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Naveen Kumar,Hamara Sahi Vikalp Party,HSVP,91,130504,0.1,12
+36,Bijwasan,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0536.htm,Lalita Trivedi,Bhartiya Krishak Dal,BKD,48,130504,0.0,13
+37,Palam,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0537.htm,Kuldeep Solanki,Bharatiya Janata Party,BJP,82046,162615,50.5,1
+37,Palam,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0537.htm,Joginder Solanki,Aam Aadmi Party,AAP,73094,162615,44.9,2
+37,Palam,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0537.htm,Mange Ram,Indian National Congress,CONG,4697,162615,2.9,3
+37,Palam,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0537.htm,Nota,None of the Above,NA,1119,162615,0.7,4
+37,Palam,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0537.htm,Geeta,Bahujan Samaj Party,BSP,810,162615,0.5,5
+37,Palam,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0537.htm,Dilip Kumar,Communist Party of India,CPI,326,162615,0.2,6
+37,Palam,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0537.htm,Prashant Chauhan,Independent,Ind.,302,162615,0.2,7
+37,Palam,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0537.htm,Manu Gautam,Peoples Party of India (Democratic),PPI(D),221,162615,0.1,8
+38,Delhi Cantt,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0538.htm,Virender Singh Kadian,Aam Aadmi Party,AAP,22191,47458,46.8,1
+38,Delhi Cantt,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0538.htm,Bhuvan Tanwar,Bharatiya Janata Party,BJP,20162,47458,42.5,2
+38,Delhi Cantt,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0538.htm,Pradeep Kumar Upmanyu,Indian National Congress,CONG,4252,47458,9.0,3
+38,Delhi Cantt,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0538.htm,Nota,None of the Above,NA,330,47458,0.7,4
+38,Delhi Cantt,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0538.htm,Namit Kumar Gautam,Bahujan Samaj Party,BSP,232,47458,0.5,5
+38,Delhi Cantt,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0538.htm,Ashok Agyani,Independent,Ind.,149,47458,0.3,6
+38,Delhi Cantt,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0538.htm,Surender Kumar,Peoples Party of India (Democratic),PPI(D),72,47458,0.2,7
+38,Delhi Cantt,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0538.htm,Sachin,Bharatiya Sampuran Krantikari Party,BSKP,70,47458,0.1,8
+39,Rajinder Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0539.htm,Umang Bajaj,Bharatiya Janata Party,BJP,46671,97211,48.0,1
+39,Rajinder Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0539.htm,Durgesh Pathak,Aam Aadmi Party,AAP,45440,97211,46.7,2
+39,Rajinder Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0539.htm,Vineet Yadav,Indian National Congress,CONG,4015,97211,4.1,3
+39,Rajinder Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0539.htm,Nota,None of the Above,NA,571,97211,0.6,4
+39,Rajinder Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0539.htm,Praveen Kumar Bharti,Aazad Samaj Party (Kanshi Ram),ASP(KR),155,97211,0.2,5
+39,Rajinder Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0539.htm,Shiv Prasad Verma,Bahujan Samaj Party,BSP,150,97211,0.2,6
+39,Rajinder Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0539.htm,Umang,Independent,Ind.,144,97211,0.1,7
+39,Rajinder Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0539.htm,Pankaj Jagya,Republican Party of India (Athawale),RPI(A),65,97211,0.1,8
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Parvesh Sahib Singh,Bharatiya Janata Party,BJP,30088,61636,48.8,1
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Arvind Kejriwal,Aam Aadmi Party,AAP,25999,61636,42.2,2
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Sandeep Dikshit,Indian National Congress,CONG,4568,61636,7.4,3
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Nota,None of the Above,NA,314,61636,0.5,4
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Virender,Bahujan Samaj Party,BSP,142,61636,0.2,5
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Dr. Munish Kumar Raizada,Bharatiya Liberal Party,BLP,76,61636,0.1,6
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Anuradha Rana,Independent,Ind.,72,61636,0.1,7
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Anita,Independent,Ind.,55,61636,0.1,8
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Santosh Rai,Abhinav Bharat Party,ABP,53,61636,0.1,9
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Duggirala Nageswara Rao,Jatiya Jana Sena Party,JJSP,39,61636,0.1,10
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Naresh Kumar,Aapki Apni Party (Peoples),AAP(P),37,61636,0.1,11
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Dr. Abhilasha,Independent,Ind.,31,61636,0.1,12
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Santosh Kumar,Right to Recall Party,RRP,30,61636,0.0,13
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Jagdeesh Prasad,Samarth Bharatvarsh Party,SBP,22,61636,0.0,14
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Arun Kumar Sharma,Delhi Janta Party,DJP,21,61636,0.0,15
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Sanjay Rawat,Independent,Ind.,17,61636,0.0,16
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Ravinder Singh Rawat,Haryana Jansena Party,HJP,15,61636,0.0,17
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Bhawana,Independent,Ind.,11,61636,0.0,18
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Pankaj Sharma,Independent,Ind.,9,61636,0.0,19
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Haider Ali,Independent,Ind.,9,61636,0.0,20
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Nitya Nand Singh,Rashtriya Manav Party,RMP,8,61636,0.0,21
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Mukesh Jain,Rashtrawadi Janlok Party (Satya),RJP(S),8,61636,0.0,22
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Sangha Nand Bauddh,Bhim Sena,BS,8,61636,0.0,23
+40,New Delhi,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0540.htm,Ishwar Chand,Bharatrashtra Democratic Party,BDP,4,61636,0.0,24
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Tarvinder Singh Marwah,Bharatiya Janata Party,BJP,38859,85511,45.4,1
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Manish Sisodia,Aam Aadmi Party,AAP,38184,85511,44.7,2
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Farhad Suri,Indian National Congress,CONG,7350,85511,8.6,3
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Nota,None of the Above,NA,441,85511,0.5,4
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Ashok Bambani,Independent,Ind.,171,85511,0.2,5
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Ravindra Singh Raviyodaya,Bahujan Samaj Party,BSP,155,85511,0.2,6
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Bijender,Haryana Jansena Party,HJP,119,85511,0.1,7
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Sunil Kumar Kukreja,Independent,Ind.,80,85511,0.1,8
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Rakesh Sagar,Blue India Party,BIP,78,85511,0.1,9
+41,Jangpura,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0541.htm,Anil Kumar,Bhartiya Rashtrawadi Party,BRP,74,85511,0.1,10
+42,Kasturba Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0542.htm,Neeraj Basoya,Bharatiya Janata Party,BJP,38067,84483,45.1,1
+42,Kasturba Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0542.htm,Abhishek Dutt,Indian National Congress,CONG,27019,84483,32.0,2
+42,Kasturba Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0542.htm,Ramesh Pahelwan,Aam Aadmi Party,AAP,18617,84483,22.0,3
+42,Kasturba Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0542.htm,Nota,None of the Above,NA,472,84483,0.6,4
+42,Kasturba Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0542.htm,Parteek Gupta,Independent,Ind.,158,84483,0.2,5
+42,Kasturba Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0542.htm,Mahesh Kumar,Bahujan Samaj Party,BSP,150,84483,0.2,6
+43,Malviya Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0543.htm,Satish Upadhyay,Bharatiya Janata Party,BJP,39564,85035,46.5,1
+43,Malviya Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0543.htm,Somnath Bharti,Aam Aadmi Party,AAP,37433,85035,44.0,2
+43,Malviya Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0543.htm,Jitender Kumar Kochar,Indian National Congress,CONG,6770,85035,8.0,3
+43,Malviya Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0543.htm,Nota,None of the Above,NA,532,85035,0.6,4
+43,Malviya Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0543.htm,Charanjeet Kaur,Bahujan Samaj Party,BSP,238,85035,0.3,5
+43,Malviya Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0543.htm,Meghnad S.,Independent,Ind.,192,85035,0.2,6
+43,Malviya Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0543.htm,Dr. Bhupendra Chaurasiya,Yuva Bharat Rashtraseva Party,YBRP,162,85035,0.2,7
+43,Malviya Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0543.htm,Bhavish Dhankar,Bhartiya Rashtriya Jansatta,BRJ,144,85035,0.2,8
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Anil Kumar Sharma,Bharatiya Janata Party,BJP,43260,76503,56.5,1
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Pramila Tokas,Aam Aadmi Party,AAP,28807,76503,37.7,2
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Vishesh Kumar,Indian National Congress,CONG,3079,76503,4.0,3
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Nota,None of the Above,NA,549,76503,0.7,4
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Sunil Kain,Bahujan Samaj Party,BSP,202,76503,0.3,5
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Ramesh Advocate,Independent,Ind.,100,76503,0.1,6
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Neeraj Chourasiya,Yuva Bharat Rashtraseva Party,YBRP,99,76503,0.1,7
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Permila,Independent,Ind.,88,76503,0.1,8
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Lokesh Kumar Masterji,Rashtriya Rashtrawadi Party,RRP,76,76503,0.1,9
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Rai Singh,Independent,Ind.,76,76503,0.1,10
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Kuldeep Singh Ahlawat,Independent,Ind.,55,76503,0.1,11
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Vijay Kumar,Peoples Party of India (Democratic),PPI(D),52,76503,0.1,12
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Saravanan,Rashtriya Manav Party,RMP,35,76503,0.0,13
+44,R K Puram,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0544.htm,Abha Jha,Bhartiya Mahasangh Party,BMP,25,76503,0.0,14
+45,Mehrauli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0545.htm,Gajender Singh Yadav,Bharatiya Janata Party,BJP,48349,116034,41.7,1
+45,Mehrauli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0545.htm,Mahender Chaudhary,Aam Aadmi Party,AAP,46567,116034,40.1,2
+45,Mehrauli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0545.htm,Balyogi Baba Balaknath,Independent,Ind.,9731,116034,8.4,3
+45,Mehrauli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0545.htm,Pushpa Singh,Indian National Congress,CONG,9338,116034,8.0,4
+45,Mehrauli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0545.htm,Nota,None of the Above,NA,846,116034,0.7,5
+45,Mehrauli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0545.htm,Yogeshwar Singh Bisht,Bahujan Samaj Party,BSP,778,116034,0.7,6
+45,Mehrauli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0545.htm,Mahavir Singh,Matrubhoomi Sewa Party,MSP,181,116034,0.2,7
+45,Mehrauli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0545.htm,Sharda Singh,Right to Recall Party,RRP,140,116034,0.1,8
+45,Mehrauli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0545.htm,Vijay Lal Tamta,Peoples Party of India (Democratic),PPI(D),104,116034,0.1,9
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Kartar Singh Tanwar,Bharatiya Janata Party,BJP,80469,164299,49.0,1
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Brahm Singh Tanwar,Aam Aadmi Party,AAP,74230,164299,45.2,2
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Rajender Singh Tanwar,Indian National Congress,CONG,6601,164299,4.0,3
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Nota,None of the Above,NA,868,164299,0.5,4
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Brij Lal,Bahujan Samaj Party,BSP,750,164299,0.5,5
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Dinesh Tanwar,Aapki Apni Party (Peoples),AAP(P),293,164299,0.2,6
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Dharmender,Independent,Ind.,269,164299,0.2,7
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Sanjay Negi,Independent,Ind.,221,164299,0.1,8
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Islam Ali,Aazad Samaj Party (Kanshi Ram),ASP(KR),181,164299,0.1,9
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Narender,Nationalist Congress Party,NCP,173,164299,0.1,10
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Daya Ram Gurjar,Independent,Ind.,167,164299,0.1,11
+46,Chhatarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0546.htm,Richa Kumari,Republican Sena,RS,77,164299,0.0,12
+47,Deoli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0547.htm,Prem Chauhan,Aam Aadmi Party,AAP,86889,157734,55.1,1
+47,Deoli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0547.htm,Deepak Tanwar,Lok Janshakti Party(Ram Vilas),LJP(RV),50209,157734,31.8,2
+47,Deoli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0547.htm,Rajesh Chauhan,Indian National Congress,CONG,12211,157734,7.7,3
+47,Deoli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0547.htm,Asmita,Bahujan Samaj Party,BSP,2581,157734,1.6,4
+47,Deoli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0547.htm,Raja Ram,Bhartiya Rashtrawadi Party,BRP,2229,157734,1.4,5
+47,Deoli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0547.htm,Nota,None of the Above,NA,2130,157734,1.4,6
+47,Deoli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0547.htm,Bachan Ram,Matrubhoomi Sewa Party,MSP,947,157734,0.6,7
+47,Deoli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0547.htm,Devika,Rashtriya Lok Janshakti Party,RLJP,538,157734,0.3,8
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Dr. Ajay Dutt,Aam Aadmi Party,AAP,46285,97189,47.6,1
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Khushi Ram Chunar,Bharatiya Janata Party,BJP,42055,97189,43.3,2
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Jai Prakash,Indian National Congress,CONG,7172,97189,7.4,3
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Nota,None of the Above,NA,498,97189,0.5,4
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Sewa Dass,Bahujan Samaj Party,BSP,397,97189,0.4,5
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Arun,Haryana Jansena Party,HJP,302,97189,0.3,6
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Darsan Singh,Aazad Samaj Party (Kanshi Ram),ASP(KR),261,97189,0.3,7
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Ashok Kumar,Independent,Ind.,102,97189,0.1,8
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Rajiv Kumar,Bhartiya Rashtrawadi Party,BRP,85,97189,0.1,9
+48,Ambedkar Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0548.htm,Gulshan Bharti,Right to Recall Party,RRP,32,97189,0.0,10
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Chandan Kumar Choudhary,Bharatiya Janata Party,BJP,54049,125714,43.0,1
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Dinesh Mohaniya,Aam Aadmi Party,AAP,53705,125714,42.7,2
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Harsh Choudhary,Indian National Congress,CONG,15863,125714,12.6,3
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Mohd Zakiullah,Bahujan Samaj Party,BSP,796,125714,0.6,4
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Nota,None of the Above,NA,537,125714,0.4,5
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Jagdish Kumar Verma,Independent,Ind.,195,125714,0.2,6
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Sudhir Negi,Matrubhoomi Sewa Party,MSP,143,125714,0.1,7
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Mahender Kumar,Independent,Ind.,136,125714,0.1,8
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Sirajuddin,Aazad Samaj Party (Kanshi Ram),ASP(KR),83,125714,0.1,9
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Qamar Ali,Nationalist Congress Party,NCP,78,125714,0.1,10
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Ravinder Singh,Republican Sena,RS,68,125714,0.1,11
+49,Sangam Vihar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0549.htm,Satpal,Independent,Ind.,61,125714,0.0,12
+50,Greater Kailash,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0550.htm,Shikha Roy,Bharatiya Janata Party,BJP,49594,103884,47.7,1
+50,Greater Kailash,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0550.htm,Saurabh Bharadwaj,Aam Aadmi Party,AAP,46406,103884,44.7,2
+50,Greater Kailash,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0550.htm,Garvit Singhvi,Indian National Congress,CONG,6711,103884,6.5,3
+50,Greater Kailash,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0550.htm,Nota,None of the Above,NA,671,103884,0.6,4
+50,Greater Kailash,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0550.htm,Niyati Choudhary,Bahujan Samaj Party,BSP,235,103884,0.2,5
+50,Greater Kailash,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0550.htm,Satish Kumar Gulliya,Bhartiya Rashtrawadi Party,BRP,171,103884,0.2,6
+50,Greater Kailash,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0550.htm,Ramesh Jagannath Shah,Delhi Janta Party,DJP,96,103884,0.1,7
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Atishi,Aam Aadmi Party,AAP,52154,106876,48.8,1
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Ramesh Bidhuri,Bharatiya Janata Party,BJP,48633,106876,45.5,2
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Alka Lamba,Indian National Congress,CONG,4392,106876,4.1,3
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Nota,None of the Above,NA,556,106876,0.5,4
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Pritam Singh,Bahujan Samaj Party,BSP,421,106876,0.4,5
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Tanya Singh,Bhartiya Rashtrawadi Party,BRP,193,106876,0.2,6
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Deepak Kapila,Azad Adhikar Sena,AAS,174,106876,0.2,7
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Sanjay,Independent,Ind.,89,106876,0.1,8
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Rajan Singh,Aam Janta Party (India),AJP(I),85,106876,0.1,9
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Parveen Choudhry,Independent,Ind.,58,106876,0.1,10
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Ravi,Independent,Ind.,39,106876,0.0,11
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Iqbal Ahmed Siddiqui,Independent,Ind.,31,106876,0.0,12
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Sangh Mitra,Bhim Sena,BS,28,106876,0.0,13
+51,Kalkaji,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0551.htm,Rajesh Kumar,Veer Janshakti Party,VJP,23,106876,0.0,14
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Sahi Ram,Aam Aadmi Party,AAP,62155,114938,54.1,1
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Rohtash Kumar,Bharatiya Janata Party,BJP,47444,114938,41.3,2
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Virender Singh,Indian National Congress,CONG,2313,114938,2.0,3
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Amjad Hasan,Bahujan Samaj Party,BSP,1606,114938,1.4,4
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Nota,None of the Above,NA,536,114938,0.5,5
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Parveen Chauhan,Samata Party,SP,323,114938,0.3,6
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Naresh Kumar,Right to Recall Party,RRP,199,114938,0.2,7
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Rekha Singh,Independent,Ind.,143,114938,0.1,8
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Khursheed Abbas Zaidi,Rashtriya Bahujan Congress Party,RBCP,133,114938,0.1,9
+52,Tughlakabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0552.htm,Chaman Lal,Peoples Party of India (Democratic),PPI(D),86,114938,0.1,10
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Ram Singh Netaji,Aam Aadmi Party,AAP,112991,208095,54.3,1
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Narayan Dutt Sharma,Bharatiya Janata Party,BJP,87103,208095,41.9,2
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Arjun Singh Bhadana,Indian National Congress,CONG,3145,208095,1.5,3
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Pardeep,Bahujan Samaj Party,BSP,1965,208095,0.9,4
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Nota,None of the Above,NA,915,208095,0.4,5
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Rahul Rai,Samata Party,SP,466,208095,0.2,6
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Jagdish Chand,Communist Party of India  (Marxist),CPI(M),367,208095,0.2,7
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Imran Saifi,Nationalist Congress Party,NCP,322,208095,0.2,8
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Deepak Rawat,Independent,Ind.,219,208095,0.1,9
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Hari Ram,Rashtriya Bahujan Congress Party,RBCP,185,208095,0.1,10
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Om Prakash Gupta,Independent,Ind.,176,208095,0.1,11
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Ram Bahadur,Akhil Bhartiya Manavatavadi Party,ABMP,134,208095,0.1,12
+53,Badarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0553.htm,Brijpal,Bharatiya Sampuran Krantikari Party,BSKP,107,208095,0.1,13
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Amanatullah Khan,Aam Aadmi Party,AAP,88943,209522,42.5,1
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Manish Chaudhary,Bharatiya Janata Party,BJP,65304,209522,31.2,2
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Shifa Ur Rehman Khan,All India Majlis-E-Ittehadul Muslimeen,AIMEIM,39558,209522,18.9,3
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Ariba Khan,Indian National Congress,CONG,12739,209522,6.1,4
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Satish Kumar,Bahujan Samaj Party,BSP,756,209522,0.4,5
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Nota,None of the Above,NA,604,209522,0.3,6
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Sher Mohammad,Azad Samaj Party,ASP,290,209522,0.1,7
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Sheikh Arsalan Ullah Chishti,Independent,Ind.,270,209522,0.1,8
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Md Injamamul Hassan,Communist Party of India,CPI,259,209522,0.1,9
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Rizwana Khatoon,Socialist Unity Centre Of India (COMMUNIST),SUCOI(COMMUNIST),221,209522,0.1,10
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Hammad Khan,Independent,Ind.,180,209522,0.1,11
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Firdos Alam,Bhartiya Insan Party,BIP,148,209522,0.1,12
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Kaneez Fatima,Aihra National Party,ANP,126,209522,0.1,13
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Mohd Islam,Right to Recall Party,RRP,83,209522,0.0,14
+54,Okhla,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0554.htm,Jamaluddin,Buland Bharat Party,BBP,41,209522,0.0,15
+55,Trilokpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0555.htm,Ravi Kant,Bharatiya Janata Party,BJP,58217,126283,46.1,1
+55,Trilokpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0555.htm,Anjana Parcha,Aam Aadmi Party,AAP,57825,126283,45.8,2
+55,Trilokpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0555.htm,Amardeep,Indian National Congress,CONG,6147,126283,4.9,3
+55,Trilokpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0555.htm,Vicky,Aazad Samaj Party (Kanshi Ram),ASP(KR),1681,126283,1.3,4
+55,Trilokpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0555.htm,Nand Lal,Bahujan Samaj Party,BSP,1322,126283,1.0,5
+55,Trilokpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0555.htm,Nota,None of the Above,NA,683,126283,0.5,6
+55,Trilokpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0555.htm,Naveen Ram,Independent,Ind.,272,126283,0.2,7
+55,Trilokpuri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0555.htm,Sarita Singh,Akhil Bharatiya Socialist Party,ABSP,136,126283,0.1,8
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Kuldeep Kumar (Monu),Aam Aadmi Party,AAP,61792,128730,48.0,1
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Priyanka Gautam,Bharatiya Janata Party,BJP,55499,128730,43.1,2
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Akshay Kumar,Indian National Congress,CONG,7230,128730,5.6,3
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Mukesh Kumar,Bahujan Samaj Party,BSP,2438,128730,1.9,4
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Nota,None of the Above,NA,776,128730,0.6,5
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Sunny Kumar,Aazad Samaj Party (Kanshi Ram),ASP(KR),418,128730,0.3,6
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Asha Kamble,Republican Party of India (Athawale),RPI(A),188,128730,0.1,7
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Surender Singh,Swaraj Bhartiya Nyay Party,SBNP,167,128730,0.1,8
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Nikhil Kumar Pipal,Right to Recall Party,RRP,122,128730,0.1,9
+56,Kondli,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0556.htm,Amarjeet Prasad,Communist Party of India  (Marxist-Leninist)  (Liberation),CPI(ML)(L),100,128730,0.1,10
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Ravinder Singh Negi (Ravi Negi),Bharatiya Janata Party,BJP,74060,138652,53.4,1
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Avadh Ojha,Aam Aadmi Party,AAP,45988,138652,33.2,2
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Anil Kumar,Indian National Congress,CONG,16549,138652,11.9,3
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Om Shankar Pandey,Bahujan Samaj Party,BSP,756,138652,0.5,4
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Nota,None of the Above,NA,692,138652,0.5,5
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Prakash Chandra Joshi,Bhartiya Rashtriya Jansatta,BRJ,188,138652,0.1,6
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Gopal Prasad,Delhi Janta Party,DJP,137,138652,0.1,7
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Diblu Singh,Independent,Ind.,117,138652,0.1,8
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Jagdish  Ojha,Independent,Ind.,108,138652,0.1,9
+57,Patparganj,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0557.htm,Deepa Devi,Aihra National Party,ANP,57,138652,0.0,10
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Abhay Verma,Bharatiya Janata Party,BJP,65858,126382,52.1,1
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,B B Tyagi,Aam Aadmi Party,AAP,54316,126382,43.0,2
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Sumit Sharma,Indian National Congress,CONG,4316,126382,3.4,3
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Nota,None of the Above,NA,686,126382,0.5,4
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Mohd Waqar Choudhary,Bahujan Samaj Party,BSP,388,126382,0.3,5
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Gandhi Gautam,Aazad Samaj Party (Kanshi Ram),ASP(KR),173,126382,0.1,6
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Vikas,Aapsi Sahyog Party,ASP,135,126382,0.1,7
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Deepak Pandey,Magadh Congress of Inda,MCI,107,126382,0.1,8
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Jagdish Kumar Garg,Independent,Ind.,74,126382,0.1,9
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Vimal Kumar Saxena,Independent,Ind.,69,126382,0.1,10
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Namaha,Nationalist Congress Party,NCP,48,126382,0.0,11
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Anurag Kumar,Independent,Ind.,48,126382,0.0,12
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Kusum Lata,Peoples Party of India (Democratic),PPI(D),46,126382,0.0,13
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Anima Ojha,Right to Recall Party,RRP,45,126382,0.0,14
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Danveer Vidyalankar,Rashtra Nirman Party,RNP,41,126382,0.0,15
+58,Laxmi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0558.htm,Ismail,Voice of Awam Party,VAP,32,126382,0.0,16
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Om Prakash Sharma,Bharatiya Janata Party,BJP,72141,125022,57.7,1
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Deepak Singhal,Aam Aadmi Party,AAP,47099,125022,37.7,2
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Rajiv Chaudhary,Indian National Congress,CONG,3627,125022,2.9,3
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Nota,None of the Above,NA,1047,125022,0.8,4
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Rajesh Kumar Yadav,Bahujan Samaj Party,BSP,443,125022,0.4,5
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Bhawana Bothra,Veer Janshakti Party,VJP,217,125022,0.2,6
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Gurmeet Singh,Jai Maha Bharath Party,JMBP,161,125022,0.1,7
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Parag Jain,Aam Aadmi Parivartan Party,AAPP,142,125022,0.1,8
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Deepak Kumar,Bharatiy Aam Janta Adhikar Party,BAJAP,49,125022,0.0,9
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Neelam Singh,Peoples Party of India (Democratic),PPI(D),49,125022,0.0,10
+59,Vishwas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0559.htm,Anil Kumar,National Youth Party,NYP,47,125022,0.0,11
+60,Krishna Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0560.htm,Dr Anil Goyal,Bharatiya Janata Party,BJP,75922,143405,52.9,1
+60,Krishna Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0560.htm,Vikas Bagga Ca,Aam Aadmi Party,AAP,56424,143405,39.3,2
+60,Krishna Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0560.htm,Gurcharan Singh (Raju),Indian National Congress,CONG,9393,143405,6.5,3
+60,Krishna Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0560.htm,Nota,None of the Above,NA,696,143405,0.5,4
+60,Krishna Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0560.htm,Amar Singh,Bahujan Samaj Party,BSP,552,143405,0.4,5
+60,Krishna Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0560.htm,Vinod Kapoor,Independent,Ind.,191,143405,0.1,6
+60,Krishna Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0560.htm,Poonam Maini,National Youth Party,NYP,131,143405,0.1,7
+60,Krishna Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0560.htm,Vidhayak Virendra Pradhan Gurjar,Samrat Mihir Bhoj Samaj Party,SMBSP,96,143405,0.1,8
+61,Gandhi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0561.htm,Arvinder Singh Lovely,Bharatiya Janata Party,BJP,56858,105404,53.9,1
+61,Gandhi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0561.htm,Naveen Chaudhary (Deepu),Aam Aadmi Party,AAP,44110,105404,41.8,2
+61,Gandhi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0561.htm,Kamal Arora (Dabbu),Indian National Congress,CONG,3453,105404,3.3,3
+61,Gandhi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0561.htm,Nota,None of the Above,NA,402,105404,0.4,4
+61,Gandhi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0561.htm,Tikraj Singh,Bahujan Samaj Party,BSP,235,105404,0.2,5
+61,Gandhi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0561.htm,Pawan Choudhry,Jatiya Jana Sena Party,JJSP,190,105404,0.2,6
+61,Gandhi Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0561.htm,Gulfam,Independent,Ind.,156,105404,0.1,7
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Sanjay Goyal,Bharatiya Janata Party,BJP,62788,126517,49.6,1
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Jitender Singh Shunty,Aam Aadmi Party,AAP,57610,126517,45.5,2
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Jagat Singh,Indian National Congress,CONG,3862,126517,3.1,3
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Dharmindra Kumar Kaim,Bahujan Samaj Party,BSP,596,126517,0.5,4
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Vinay Chaudhari,Independent,Ind.,579,126517,0.5,5
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Nota,None of the Above,NA,558,126517,0.4,6
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Nitin Garg,Aam Aadmi Parivartan Party,AAPP,182,126517,0.1,7
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Kamal Kishore,National Youth Party,NYP,145,126517,0.1,8
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Ashok Surana,Independent,Ind.,87,126517,0.1,9
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Rajendra Kumar Pal,Nationalist Congress Party,NCP,58,126517,0.0,10
+62,Shahdara,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0562.htm,Dilip Banerjee,Independent,Ind.,52,126517,0.0,11
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Veer Singh Dhingan,Aam Aadmi Party,AAP,66353,136957,48.4,1
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Ku. Rinku,Bharatiya Janata Party,BJP,55985,136957,40.9,2
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Rajesh Lilothia,Indian National Congress,CONG,11823,136957,8.6,3
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Manoj,Bahujan Samaj Party,BSP,867,136957,0.6,4
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Anil Kumar,Aazad Samaj Party (Kanshi Ram),ASP(KR),654,136957,0.5,5
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Nota,None of the Above,NA,458,136957,0.3,6
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Ajay Kumar,Peoples Party of India (Democratic),PPI(D),277,136957,0.2,7
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Saroj Bala,Swatantra Jantaraj Party,SJP,163,136957,0.1,8
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Ashish Kumar,Independent,Ind.,158,136957,0.1,9
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Rajesh Kumar Lohiya,Nationalist Congress Party,NCP,110,136957,0.1,10
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Charan Singh Maliyan,Right to Recall Party,RRP,58,136957,0.0,11
+63,Seema Puri,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0563.htm,Rajesh,Bharatiya Sarvodaya Kranti Party,BSKP,51,136957,0.0,12
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Jitender Mahajan,Bharatiya Janata Party,BJP,82896,144317,57.4,1
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Sarita Singh,Aam Aadmi Party,AAP,54994,144317,38.1,2
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Sureshvati,Indian National Congress,CONG,3639,144317,2.5,3
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Ashok Kumar,Bahujan Samaj Party,BSP,953,144317,0.7,4
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Nota,None of the Above,NA,630,144317,0.4,5
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Vikas Tyagi,Independent,Ind.,550,144317,0.4,6
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Surender Singh Vishwakarma,Aazad Samaj Party (Kanshi Ram),ASP(KR),174,144317,0.1,7
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Abhishek,Nationalist Congress Party,NCP,91,144317,0.1,8
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Suresh Pal Jainth,Independent,Ind.,72,144317,0.0,9
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Naseem Usman,Bharatiya Liberal Party,BLP,63,144317,0.0,10
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Pankaj Gupta,Sarvodaya Prabhat Party,SPP,54,144317,0.0,11
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Akeshan Dut,Bhartiya Rashtriya Dal,BRD,48,144317,0.0,12
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Nitin Mittal,Independent,Ind.,45,144317,0.0,13
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Amit Kumar Sharma,Sanjhi Virasat Party,SVP,43,144317,0.0,14
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Sanjeev Kumar,Jan Samuh Party,JSP,35,144317,0.0,15
+64,Rohtas Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0564.htm,Subhash Chand Gupta,Bhartiya Rashtrawadi Party,BRP,30,144317,0.0,16
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Chaudhary Zubair Ahmad,Aam Aadmi Party,AAP,79009,133440,59.2,1
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Anil Kumar Sharma (Gaur),Bharatiya Janata Party,BJP,36532,133440,27.4,2
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Abdul Rehman,Indian National Congress,CONG,16551,133440,12.4,3
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Deepak Kumar,Bahujan Samaj Party,BSP,422,133440,0.3,4
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Nota,None of the Above,NA,355,133440,0.3,5
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Shabana,Rashtriya Republican Party,RRP,177,133440,0.1,6
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Mohd Nazir,Republican Party of India (Athawale),RPI(A),107,133440,0.1,7
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Mohd Shafi,Independent,Ind.,72,133440,0.1,8
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Suman Sharma,Sanjhi Virasat Party,SVP,50,133440,0.0,9
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Syed Muneeb,Independent,Ind.,46,133440,0.0,10
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Rahisuddin Ahmad,Independent,Ind.,44,133440,0.0,11
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Mohd Zubair Malik,Independent,Ind.,29,133440,0.0,12
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,S. M. Aqif,Independent,Ind.,24,133440,0.0,13
+65,Seelampur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0565.htm,Islauddin,Independent,Ind.,22,133440,0.0,14
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Ajay Mahawar,Bharatiya Janata Party,BJP,79987,140420,57.0,1
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Gaurav Sharma,Aam Aadmi Party,AAP,53929,140420,38.4,2
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Bhisham Sharma,Indian National Congress,CONG,4883,140420,3.5,3
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Nota,None of the Above,NA,588,140420,0.4,4
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Sunder Lohiya,Bahujan Samaj Party,BSP,454,140420,0.3,5
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Gaurav Sharma,Independent,Ind.,279,140420,0.2,6
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Babita,Yuva Bharat Rashtraseva Party,YBRP,114,140420,0.1,7
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Shubham,Right to Recall Party,RRP,84,140420,0.1,8
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Anil Singh,Sanjhi Virasat Party,SVP,56,140420,0.0,9
+66,Ghonda,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0566.htm,Advocate Mehak Dogra,Nationalist Congress Party,NCP,46,140420,0.0,10
+67,Babarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0567.htm,Gopal Rai,Aam Aadmi Party,AAP,76192,143244,53.2,1
+67,Babarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0567.htm,Anil Kumar Vashisht,Bharatiya Janata Party,BJP,57198,143244,39.9,2
+67,Babarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0567.htm,Mohd Ishraq Khan,Indian National Congress,CONG,8797,143244,6.1,3
+67,Babarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0567.htm,Nota,None of the Above,NA,474,143244,0.3,4
+67,Babarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0567.htm,Md Nazir,Aman Samaj Party,ASP,201,143244,0.1,5
+67,Babarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0567.htm,Mohammad Abdullah Ansari,Independent,Ind.,124,143244,0.1,6
+67,Babarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0567.htm,Bhupender Yadav,Janhit Dal,JD,93,143244,0.1,7
+67,Babarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0567.htm,Shiv Kumar(Kake),Sarvodaya Prabhat Party,SPP,89,143244,0.1,8
+67,Babarpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0567.htm,Manoj Kumar,Akhil Bharatiya Socialist Party,ABSP,76,143244,0.1,9
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Surendra Kumar,Aam Aadmi Party,AAP,80504,166051,48.5,1
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Praveen Nimesh,Bharatiya Janata Party,BJP,72297,166051,43.5,2
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Ishwar Singh,Indian National Congress,CONG,5905,166051,3.6,3
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Arvind Kumar,Aazad Samaj Party (Kanshi Ram),ASP(KR),3086,166051,1.9,4
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Lal Singh,Bahujan Samaj Party,BSP,2562,166051,1.5,5
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Nota,None of the Above,NA,601,166051,0.4,6
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Atul Kumar,Swaraj Bhartiya Nyay Party,SBNP,339,166051,0.2,7
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Dharamvir Singh,Peoples Party of India (Democratic),PPI(D),195,166051,0.1,8
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Bir Sain,Bharatiya Sarvodaya Kranti Party,BSKP,145,166051,0.1,9
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Sureshpal Jainth,Independent,Ind.,133,166051,0.1,10
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Manjeet Singh,Jan Samuh Party,JSP,129,166051,0.1,11
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Charan Singh Maliyan,Right to Recall Party,RRP,91,166051,0.1,12
+68,Gokalpur,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0568.htm,Jagdish,Nationalist Congress Party,NCP,64,166051,0.0,13
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Mohan Singh Bisht,Bharatiya Janata Party,BJP,85215,201161,42.4,1
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Adeel Ahmad Khan,Aam Aadmi Party,AAP,67637,201161,33.6,2
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Mohd. Tahir Hussain,All India Majlis-E-Ittehadul Muslimeen,AIMEIM,33474,201161,16.6,3
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Ali Mehdi,Indian National Congress,CONG,11763,201161,5.8,4
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Ashok Kumar,Bahujan Samaj Party,BSP,1223,201161,0.6,5
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Nota,None of the Above,NA,455,201161,0.2,6
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Dharam Pal,Bharatiya Sarvodaya Kranti Party,BSKP,391,201161,0.2,7
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Asha Chaudhary,Bharatiya Sampuran Krantikari Party,BSKP,236,201161,0.1,8
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Sagar Tanha,Peace Party,PP,227,201161,0.1,9
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Vishal,Peoples Party of India (Democratic),PPI(D),192,201161,0.1,10
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Mohd Usman Bakhsh,Rashtriya Janmorcha,RJ,151,201161,0.1,11
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Jitender Kumar,Independent,Ind.,122,201161,0.1,12
+69,Mustafabad,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0569.htm,Nasiruddin Gauri,Rashtriya Republican Party,RRP,75,201161,0.0,13
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Kapil Mishra,Bharatiya Janata Party,BJP,107367,201084,53.4,1
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Manoj Kumar Tyagi,Aam Aadmi Party,AAP,84012,201084,41.8,2
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Dr. P.K. Mishra,Indian National Congress,CONG,3921,201084,1.9,3
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Devendra Bhaiya,Bahujan Samaj Party,BSP,1887,201084,0.9,4
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Ajay Singh Negi,Independent,Ind.,1006,201084,0.5,5
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Nota,None of the Above,NA,709,201084,0.4,6
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,H.M. Hashim Malik,Social Democratic Party Of India,SDPOI,491,201084,0.2,7
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Ashok Agarwal,Communist Party of India  (Marxist),CPI(M),457,201084,0.2,8
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Prakash Chand,Bahujan Dravida Party,BDP,278,201084,0.1,9
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Yogesh Swamy,Independent,Ind.,229,201084,0.1,10
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Vishal Sharma,Independent,Ind.,173,201084,0.1,11
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Sanjay Mishra (Sitaram),Nationalist Congress Party,NCP,165,201084,0.1,12
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Seema,Peoples Party of India (Democratic),PPI(D),128,201084,0.1,13
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Neeraj,New India United Party,NIUP,100,201084,0.0,14
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Yogender,Bharatiya Sampuran Krantikari Party,BSKP,90,201084,0.0,15
+70,Karawal Nagar,https://results.eci.gov.in/ResultAcGenFeb2025/candidateswise-U0570.htm,Sandhiya Tiwari,Akhil Bharatiya Socialist Party,ABSP,71,201084,0.0,16
