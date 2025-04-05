@@ -23,7 +23,7 @@ If you don't want to code anything and just want the music, you have two options
 
 * [update_script.py](update_script.py) does most of the work — aggregating, removing duplicates etc.
 * [playlist_ids_full.csv](playlist_ids_full.csv), which has a list of Spotify playlists you can aggregate 
-* [master_list_repo.csv](master_list_repo.csv), which is a list of songs released recently. When the script comes across a song, it will check the song against this csv to see if it's been on playlists earlier. The csv's populated with songs from playlists I've been aggregating.
+* [master_list_online.csv](master_list_online.csv), which is a list of songs released recently. When the script comes across a song, it will check the song against this csv to see if it's been on playlists earlier. The csv's populated with songs from playlists I've been aggregating.
 * [cred_spotify.py](cred_spotify.py) where you'll place your Spotify developer credentials 
 * [config_email.ini](config_email.ini) where you'll place your email credentials, if you want be notified every week when the consolidated playlist is created
 * [further_ideas_1.py](further_ideas_1.py) and [further_ideas_2.py](further_ideas_2.py) for inspiration on how to customize update_script.py  
@@ -42,7 +42,7 @@ If you don't want to code anything and just want the music, you have two options
 
 ### How it all works
 
-The script looks at [playlist_ids_full.csv](playlist_ids_full.csv) and sees what new music playlists you've chosen. Then it goes to each playlist and collects the songs on it. If a song is already in [master_list_repo.csv](master_list_repo.csv), it skips the song. But if the song's not there, the script adds it to a new playlist in your Spotify library. It also makes note of the song, so that if another playlist has it that week, the song doesn't get added to your personal playlist twice. The script also adds the song to [master_list_repo.csv](master_list_repo.csv), so that it gets skipped in next week's run. 
+The script looks at [playlist_ids_full.csv](playlist_ids_full.csv) and sees what new music playlists you've chosen. Then it goes to each playlist and collects the songs on it. If a song is already in [master_list_online.csv](master_list_online.csv), it skips the song. But if the song's not there, the script adds it to a new playlist in your Spotify library. It also makes note of the song, so that if another playlist has it that week, the song doesn't get added to your personal playlist twice. The script also adds the song to [master_list_online.csv](master_list_online.csv), so that it gets skipped in next week's run. 
 
 There's more details in [update_script.py](update_script.py). It's heavily commented, so you'll know what's going on at each step.
 
