@@ -206,7 +206,7 @@ for index,row in playlist_ids_df.iterrows():
 									'combined_string': combined_string
 								}
 
-								add_online_df = add_online_df.append(online_row_dict, ignore_index = True)
+								add_online_df = pd.concat([add_online_df, pd.DataFrame([online_row_dict])], ignore_index=True)
 
 #sorting add_online_df by acousticness
 	#i like acoustic music, this sorting allows songs that are more acoustic to appear at the top of the playlist
