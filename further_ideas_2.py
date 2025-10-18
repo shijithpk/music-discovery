@@ -152,24 +152,29 @@ for index,row in playlist_ids_df.iterrows():
                             (fuzz.partial_token_set_ratio(master_list_online_df['combined_string'], combined_string) < 100) and \
                             (fuzz.partial_token_set_ratio(add_online_df['combined_string'], combined_string) < 100)):
                                 #so there is no track with a different id that is a fuzzy match of the track we want to add
+                                
+
+								# Oct 12, 2025 note: spotify has disabled getting audio features of tracks, so just setting all as None
+                                danceability=energy=key=loudness=speechiness=acousticness=instrumentalness=liveness=valence=tempo=duration_ms=None
+
  
-                                #get acoustic features for each track
-                                audio_features = sp.audio_features([track_id])
-                                time.sleep(6)
-                                try:
-                                    danceability = audio_features[0]['danceability']
-                                    energy = audio_features[0]['energy']
-                                    key = audio_features[0]['key']
-                                    loudness = audio_features[0]['loudness']
-                                    speechiness = audio_features[0]['speechiness']
-                                    acousticness = audio_features[0]['acousticness']
-                                    instrumentalness = audio_features[0]['instrumentalness']
-                                    liveness = audio_features[0]['liveness']
-                                    valence = audio_features[0]['valence']
-                                    tempo = audio_features[0]['tempo']
-                                    duration_ms = audio_features[0]['duration_ms']
-                                except:
-                                    danceability=energy=key=loudness=speechiness=acousticness=instrumentalness=liveness=valence=tempo=duration_ms=None
+                                # #get acoustic features for each track
+                                # audio_features = sp.audio_features([track_id])
+                                # time.sleep(6)
+                                # try:
+                                #     danceability = audio_features[0]['danceability']
+                                #     energy = audio_features[0]['energy']
+                                #     key = audio_features[0]['key']
+                                #     loudness = audio_features[0]['loudness']
+                                #     speechiness = audio_features[0]['speechiness']
+                                #     acousticness = audio_features[0]['acousticness']
+                                #     instrumentalness = audio_features[0]['instrumentalness']
+                                #     liveness = audio_features[0]['liveness']
+                                #     valence = audio_features[0]['valence']
+                                #     tempo = audio_features[0]['tempo']
+                                #     duration_ms = audio_features[0]['duration_ms']
+                                # except:
+                                #     danceability=energy=key=loudness=speechiness=acousticness=instrumentalness=liveness=valence=tempo=duration_ms=None
                                     
                                 online_row_dict = {
                                     'track_id':track_id,
