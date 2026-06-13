@@ -210,7 +210,7 @@ for index,row in playlist_ids_df.iterrows():
 									'combined_string': combined_string
 								}
 
-								add_online_df = pd.concat([add_online_df, pd.DataFrame([online_row_dict])], ignore_index=True)
+								add_online_df.loc[len(add_online_df)] = online_row_dict
 
 #sorting add_online_df by acousticness
 	#i like acoustic music, this sorting allows songs that are more acoustic to appear at the top of the playlist
@@ -233,7 +233,8 @@ for i in range(0, no_of_100s):
 	time.sleep(10)
 
 #here we are adding all the songs from this week to the master_list csv    
-master_list_online_df = pd.concat([master_list_online_df, add_online_df], ignore_index=True, sort=False)
+if not add_online_df.empty:
+	master_list_online_df = pd.concat([master_list_online_df, add_online_df.dropna(axis=1, how='all')], ignore_index=True, sort=False)
 master_list_online_df.to_csv('master_list_online.csv', index=False, encoding='utf-8')
 
 # Below is the code to notify you when the playlist is ready for listening
