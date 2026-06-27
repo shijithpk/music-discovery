@@ -44,6 +44,10 @@ If you don't want to code anything and just want the music, you have two options
 
 The script looks at [playlist_ids_full.csv](playlist_ids_full.csv) and sees what new music playlists you've chosen. Then it goes to each playlist and collects the songs on it. If a song is already in [master_list_online.csv](master_list_online.csv), it skips the song. But if the song's not there, the script adds it to a new playlist in your Spotify library. It also makes note of the song, so that if another playlist has it that week, the song doesn't get added to your personal playlist twice. The script also adds the song to [master_list_online.csv](master_list_online.csv), so that it gets skipped in next week's run. 
 
+When it checks for duplicates, it doesn't just compare track ids. It also compares a simplified version of each song's 'name + artist' (lowercased, with accents and punctuation stripped). So 'Beyoncé — Halo' and 'Beyonce Halo' are treated as the same song, and you don't end up with near-identical duplicates from different playlists. There's a fuzzy text match on top of that to catch anything the simplified comparison misses.
+
+To save time, the script also skips playlists that haven't changed since the last run. Spotify gives each playlist a 'snapshot_id' that changes whenever its contents change. The script remembers these in a small file it creates called `playlist_snapshot_cache.csv`, and on the next run it skips any playlist whose snapshot_id is unchanged (nothing new to find there). You don't need to create or edit this file — it's generated automatically, and you can safely delete it if you ever want the script to re-check every playlist from scratch.
+
 There's more details in [update_script.py](update_script.py). It's heavily commented, so you'll know what's going on at each step.
 
 ### How to use the script
