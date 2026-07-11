@@ -68,7 +68,7 @@ playlist_ids_df = pd.read_csv('playlist_ids_full.csv')
 master_list_online_df = pd.read_csv('master_list_online.csv')
 
 one_year_ago = now - timedelta(days=365)
-master_list_online_df['date_released'] = pd.to_datetime(master_list_online_df['date_released'], errors='coerce')
+master_list_online_df['date_released'] = pd.to_datetime(master_list_online_df['date_released'], format='mixed', errors='coerce')
 master_list_online_df = master_list_online_df[master_list_online_df['date_released'] >= one_year_ago]
 
 #this master_list_online_df is the list we will check for duplicates against
