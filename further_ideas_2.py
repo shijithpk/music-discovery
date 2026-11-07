@@ -145,7 +145,7 @@ for index,row in playlist_ids_df.iterrows():
                     #if released this year or in last two months
                     if (current_year in date_released) or (days_since_release < timedelta(weeks = 9)):
 
-                        add_locally_df = add_locally_df.append(local_row_dict, ignore_index = True)
+                        add_locally_df = pd.concat([add_locally_df, pd.DataFrame([local_row_dict])], ignore_index=True)
 
                         if ((track_id not in master_list_online_df['track_id'].tolist()) and \
                             (track_id not in add_online_df['track_id'].tolist()) and \
@@ -197,10 +197,10 @@ for index,row in playlist_ids_df.iterrows():
                                     'combined_string': combined_string
                                 }
 
-                                add_online_df = add_online_df.append(online_row_dict, ignore_index = True)
+                                add_online_df = pd.concat([add_online_df, pd.DataFrame([online_row_dict])], ignore_index=True)
 
 #sort add_online_df by acousticness
-add_online_df.sort_values(by='acousticness', ascending=False, inplace=True)
+add_online_df = add_online_df.sort_values(by='acousticness', ascending=False)
 
 #add tracks from add_online_df to spotify
     #add to acoustic master list online
@@ -240,8 +240,8 @@ playlists_to_ignore = ['2fACkXaMF5AkjudREQHqME','7L9bFJhsV08162AZEYr1BH']
 
 new_df = new_df[~new_df['playlist_id'].isin(playlists_to_ignore)]
 new_df['date_of_last_update'] = pd.to_datetime(new_df['date_added_to_playlist'], format='%Y-%m-%d')
-new_df.rename(columns = {'playlist_id':'spotify_playlist_id', 'source':'playlist_source'}, inplace = True)
-new_df.drop(['date_added_to_playlist'], axis=1, inplace = True)
+new_df = new_df.rename(columns = {'playlist_id':'spotify_playlist_id', 'source':'playlist_source'})
+new_df = new_df.drop(['date_added_to_playlist'], axis=1)
 new_df['days_since_last_update'] = (now - new_df['date_of_last_update']).dt.days
 
 #email code lifted from https://realpython.com/python-send-email/#sending-fancy-emails , 

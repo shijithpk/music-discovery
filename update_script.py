@@ -372,7 +372,7 @@ add_online_df = pd.DataFrame(online_rows, columns=column_names_online)
 	#i like acoustic music, this sorting allows songs that are more acoustic to appear at the top of the playlist
 			#So i get to listen to the more acoustic music first
 	#You can sort by any other property you want like instrumentalness, danceability etc.
-add_online_df.sort_values(by='acousticness', ascending=False, inplace=True)
+add_online_df = add_online_df.sort_values(by='acousticness', ascending=False)
 
 # wiping the slate clean, removing all tracks present in the consolidated playlist if any
 sp.playlist_replace_items(playlist_id_to_update, [])
